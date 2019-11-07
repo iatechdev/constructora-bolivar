@@ -1,0 +1,398 @@
+/* INICIO HOJA DE ESTILOS DEL HOME*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body { width: 100%;}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+.-fondoHome {
+    background-image: url(../assets/images/Image\ 90.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+ .-row-home{ width: 100%; height: 100%;}
+
+.-pdd-0-i { padding: 0 !important;}
+
+.-proyectos-bogota {
+    background: transparent linear-gradient(156deg, #00B245 0%, #008C44 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #50474134;
+    border-radius: 15px;
+    opacity: 1;
+    width: 372px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.-bogota {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.-imgcastillo {
+    width: 33px;
+    height: 46px;
+    margin-left: 23px;
+    margin-right: 15px;
+}
+
+
+
+.-conoce-proyectos {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.-en {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.-imgflecha {
+    width: 20px;
+    height: 14px;
+    margin-left: 101px;
+    margin-right: 13px;
+}
+.-col-home-left { width: 100%; height: 100%; display: flex !important; flex-direction: column;}
+
+.-contenedor-alejandria {
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    opacity: 1;
+    width: 372px;
+    height: 411px;
+    margin: 25px auto 0 auto;
+
+}
+.-p-center { height: 475px;width: 372px; margin: auto; margin-bottom: -80px; }
+.-col-left-home{ height: 100% !important;}
+
+.-texto-alejandria {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.56px;
+    color: rgba(80, 71, 65, 1);
+    opacity: 1;
+    text-align: left;
+    padding-top: 16px;
+    margin-left: 12px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.-zona-norte {
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(80, 71, 65, 1);
+    width: 50%;
+}
+
+.-zona {
+    font-weight: 400;
+}
+
+.-chico {
+    font-weight: bold;
+}
+
+.-bogota-zona-norte {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F5F3;
+    justify-content: space-between;
+    padding: 15px 20px 0px;
+}
+
+.-iconos-chico {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+    
+
+}
+.-p-icon-alejandria { 
+    margin: 0 10px 0;
+}
+
+.-btn-descubrir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.-btn-mas {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+    width: 245px;
+    height: 40px;
+    background: #008C44 !important ;
+    border: none;
+    border-radius: 40px;
+    opacity: 1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2.0em;
+    padding: 0 25px 0 20px;
+    margin: 0 auto;
+   
+}
+    .-p-card-right-home { width: 469px; height:205px; margin: auto auto 0;  margin-bottom: -105px; }
+ .-content-left-card-cali { width: 50%; height: 100%;}
+
+.-contenedor-cali {
+    width: 469px;
+    height: 205px;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    opacity: 1;
+    display: flex;
+}
+
+.-AdobeStock_202503070 {
+    width: 50%;
+    height: 100%;
+}
+.-images-card-cali{ height: 100%; width: 100%; border-top-right-radius: 15px; border-bottom-right-radius: 15px;}
+
+
+
+
+.-hogar-soñado {
+    
+}
+
+-img-grupo-891 {
+    background: transparent url('img/Group 891.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+.-texto-familia{
+    background-color: #F9F5F3;
+}
+
+.-texto-familia p{
+    text-align: left;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.56px;
+    color: rgba(80, 71, 65, 1);
+    background-color: #F9F5F3;
+}
+
+.-precio-alejandria {
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(80, 71, 65, 1);
+}
+
+.-precio-cop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.-titulo-proyectos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgba(5, 98, 50, 1);
+    font-weight: 800;
+}
+
+.-texto-hogar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(80, 71, 65, 1);
+    text-align: left;
+}
+.-propiedades {
+    width: 70%;
+    height: 317px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.-image4 {
+   
+}
+
+.-park-logo {
+    background-image: url();
+}
+
+.-image-alto {
+   
+}
+
+.-image-mirla {
+    
+}
+
+.-pasa-voz {
+    width: 100%;
+    margin-top: 300px;
+}
+
+.-fondo-voz {
+    background-image: url(../assets/images/AdobeStock_181205632.png);
+    background-size: cover;
+    height: 630px;
+    width: 100%;
+    
+}
+
+/* FINAL HOJA DE ESTILOS DEL HOME*/
+
+/*Elige una ciudad*/
+
+.fondo_ciudad{
+    background-image: url(../assets/images/Ellipse\ 210.png);
+    height: 361px;
+    width: 100%;
+    margin: 25px 0 0 0;
+    background-position: left;
+}
+.titulo_ciudad{
+    color: green;
+}
+.boton_buscar_ciudad{
+    border-radius: 25px;
+    border-color: green;
+    background: white;
+    width: 325px;
+    text-align: left;
+}
+.img_pequeña_ciudad{
+    float: left;
+    margin: 5px;
+}
+.letra{
+    font-family: roboto;
+}
+.contenedor_ciudad{
+    margin-top: 30px;
+}
+.hr{
+    box-shadow: 0px 3px 13px -2px rgba(0,0,0,0.75);
+    width: 340px;
+    height: 1px;
+    margin: 0 15px;
+}
+/*Finaliza una ciudad*/
+
+/*comienza busqueda avanzada*/
+.busqueda_avanzada{
+    background-image:url(../assets/images/AdobeStock_279721422.png);
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: right;
+    padding: 0;
+
+}
+.titulo_busqueda{
+    font-family: roboto;
+    margin: auto;
+    line-height:51px;
+}
+.contenedor_sector{
+    background-color: #606060;
+    padding: 0;
+}
+.contenedor_precio{
+    background-color: #585858;
+    padding: 0;
+    
+}
+.contenedor_buscar{
+    background-color: #484848;
+    padding: 0;
+}
+.contenedores{
+    padding: 0;
+}
+/*Finaliza busqueda avanzada*/
+/*comienza Otros proyectos*/
+
+.titulo_otro_proyectos{
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 45px 0;
+}
+.contenedor_alto{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+}
+.contenedor_prado{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+
+}
+.contenedor_ilarco{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+.contenedor_alejandriaa{
+    border-radius: 15px;
+    height: 250px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+/*finaliza otros proyectos*/
+
+/*comienza testimonio*/
+.centrar_titulo{
+    text-align: center;
+    font-family: roboto;
+}
+.foto_galindo{
+    float: left;
+}
+.texto_testimonio{
+    font-family: roboto;
+
+}
+/*finaliza testimonio*/
+
+
+
