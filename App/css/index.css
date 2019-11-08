@@ -278,20 +278,26 @@ opacity: 1;
 
 .fondo_ciudad{
     background-image: url(../assets/images/Ellipse\ 210.png);
-    height: 361px;
+    height: 240px;
     width: 100%;
     margin: 25px 0 0 0;
     background-position: left;
 }
 .titulo_ciudad{
-    color: green;
+    color: #056232;
+    font-family: Roboto;
 }
 .boton_buscar_ciudad{
     border-radius: 25px;
-    border-color: green;
+    border-color: #037F43;
     background: white;
     width: 325px;
     text-align: left;
+    height: 40px;
+}
+.btn_mas{
+    float: right;
+    padding: 5px 20px 0 0;
 }
 .img_pequeña_ciudad{
     float: left;
@@ -299,6 +305,9 @@ opacity: 1;
 }
 .letra{
     font-family: roboto;
+}
+.titulo_ciudad{
+    color: green;
 }
 .contenedor_ciudad{
     margin-top: 30px;
@@ -322,28 +331,261 @@ opacity: 1;
     padding: 0;
 
 }
+.sector{
+    color: #504741;
+    font-size: 14px;
+}
+.separador_sector{
+    background: white;
+    margin-top: 60%;
+    height: 1.5px ;
+}
+.flecha_abajo_sector{
+    padding-left: 50%;
+}
+.img_castillo{
+    float: left;
+
+}
+.bogota{
+    margin: 10px;
+}
+
+.titulo_bogota{
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #504741;
+}
+
+.selecciona_sector{
+    font-family: roboto;
+    font-weight: bolder;
+    float: left;
+    color:#504741;
+    margin-top: 20%;
+}
+
 .titulo_busqueda{
     font-family: roboto;
     margin: auto;
     line-height:51px;
 }
+
 .contenedor_sector{
-    background-color: #606060;
+    background-color: #DED6CF;
     padding: 0;
+    width: auto;
 }
+
 .contenedor_precio{
-    background-color: #585858;
+    background-color: #D8CDC4;
     padding: 0;
     
 }
 .contenedor_buscar{
-    background-color: #484848;
+    background-color: #C3BBB4;
     padding: 0;
 }
 .contenedores{
     padding: 0;
 }
+.boton_buscar{
+    font-family: roboto;
+    background: #05AC56;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    width: 150px;
+    text-align: left;
+    margin-top: 15px ;
+    padding-left: 20px;
+}
+.separador{
+    background: white;
+}
+
+.boton_mensaje{
+    border-radius: 100%;
+    background: #05AC56;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.contenedor_mensaje{
+    margin: 25px;
+}
+.mapa_lista{
+    background: white;
+    border: 2px solid #504741;
+    border-radius: 4px;
+    padding-right: 10px;
+}
 /*Finaliza busqueda avanzada*/
+
+/*comienza Resultado busqueda*/
+.bajar_texto{
+    margin-top: 100%;
+}
+.espacio_resultados{
+    background: #F9F5F3;
+}
+.resultado_busqueda{
+    color: #008C44;
+    font-family: roboto;
+    font-size: 24px;
+}
+.separador_resultado{
+    background-color: grey;
+    width: 65%;
+    opacity: 0.5;
+}
+.letra_proyectos_encontrados{
+    font-family: roboto;
+    color: grey;
+}
+.ocho{
+    color: #008C44;
+}
+.contenedor_resultado_alejandria{
+    border-radius: 15px;
+    height: 300px;
+    max-width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/Image\ 4.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor_resultado_ilarko{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/ilarco_114-img1.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor_resultado_living{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/alto-living-foto-ago-2-2019.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+}
+
+.contenedor_resultado_prado{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/mirla-img_1-amp.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hover_ensayo{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    margin: 20px 35px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.head{
+    height: 100px;
+    background: #E5E0DB;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img_prueba{
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 20px 0 0 20px;
+}
+.letra_prueba{
+    color: grey;
+    font-size: 10px;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 25px;
+}
+.body{
+    background: #008C44;
+    height: 200px;
+    display: block;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.btn_ver_detalles{
+    border-color: white;
+    color: white;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    background: #008C44;
+    width: 80%;
+    font-size: 14px;
+    font-family: roboto;
+}
+.letra_precio_pequeño{
+    font-size: 12px;
+    font-family: roboto;
+    color: white;
+    text-align: center;
+
+}
+.precio{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.usd_cop{
+    float: right;
+    padding: 15px 15px 0 0;
+}
+.pies_metros{
+    float: right;
+    padding: 15px 15px 0 0;
+    width: 35%;
+}
+.centrar{
+    text-align: center;
+}
+
+.boton_cargar_proyectos{
+    background-color: white;
+    border-color:  #037F43;
+    border-radius: 35px;
+    width: 25%;
+    color: #037F43;
+    text-align: left;
+    padding-left: 50px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    font-weight: 500;
+}
+.fondo_boton{
+    background-color: #F9F5F3;
+}
+
+.mas{
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    
+}
+/*finaliza resultado busqueda*/
 /*comienza Otros proyectos*/
 
 .titulo_otro_proyectos{
@@ -351,48 +593,195 @@ opacity: 1;
     font-size: 26px;
     font-weight: bolder;
     margin: 45px 0;
+    color: grey;
 }
-.contenedor_alto{
+.contenedor_proyectos_living{
     border-radius: 15px;
-    height: 250px;
+    height: 300px;
     width: auto;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/alto-living-foto-ago-2-2019.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
 
 }
-.contenedor_prado{
+.contenedor_proyectos_prado{
     border-radius: 15px;
-    height: 250px;
+    height: 300px;
     width: auto;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/mirla-img_1-amp.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor_proyectos_ilarco{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/ilarco_114-img1.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
 
 }
-.contenedor_ilarco{
+.contenedor_proyectos_alejandria{
     border-radius: 15px;
-    height: 250px;
+    height: 300px;
     width: auto;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/Image\ 4.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
 }
-.contenedor_alejandriaa{
-    border-radius: 15px;
-    height: 250px;
-    width: auto;
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+.color_nombre{
+    color: grey;
+}
+.text_color{
+    color: white;
+}
+.entrega_inmediata{
+    font-size: 11px;
+    background: #FCDA5F;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+}
+.lanzamiento{
+    font-size: 11px;
+    background: #8033E8;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+}
+.letra_chica{
+    font-size: 10px;
+    color: white;
+    font-family: roboto;
+}
+.letra_mediana{
+    font-size: 12px;
+    color:white;
+    font-family: roboto;
+    border-bottom: 1px solid white
+}
+.espacio_proyecto{
+    margin-bottom: 10rem;
+    background: #F9F5F3;
 }
 /*finaliza otros proyectos*/
 
 /*comienza testimonio*/
 .centrar_titulo{
     text-align: center;
-    font-family: roboto;
+    font-family: Roboto;
+    color: #504741;
+}
+.titulo_testimonio{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    color:#504741;
 }
 .foto_galindo{
     float: left;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.nombre{
+    color: #504741;
+    font-family: roboto;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 15px;
+    float:left;
 }
 .texto_testimonio{
     font-family: roboto;
+    text-align: justify;
+    color: #504741;
+}
+.separador_testimonio{
+    width:20%;
+    opacity: 0.5;
+}
+.flecha_atras{
+    float: left;
+    margin-top: 50%;
+}
+.flecha_adelante{
+    float: right;
+    margin-top: 50%;
+}
+.comillas_izq{
+float: left;
+}
+.comillas_dere{
+    float: right;
+}
+
+
+/*finaliza testimonio*/
+
+/*Comienza boletin*/
+.fondo_boletin{
+    background-color: green;
+}
+.boletin{
+    padding: 27px 0 0px 82px;
 
 }
-/*finaliza testimonio*/
+.titulo_boletin{
+    font-family: roboto;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin:0;
+}
+.texto_boletin{
+    font-family: roboto;
+    color: white;
+    font-size: 12px;
+}
+.correo{
+    border: none;
+    background: transparent;
+    color: white;
+    margin: 10% ;
+    width: 227px;
+    margin-bottom: 0 !important;
+    border-bottom-color: white;
+}
+.separador_correo{
+        background-color: white;
+        width: 65%;
+        opacity: 0.5;
+        margin-top: 0 !important;
+        margin: 10%;
+}
+.boton_boletin{
+    color: #008C44;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    height: 30%;
+    display: block;
+    margin: 10%;
+    width: 50%;
+}
+.texto_btn_boletin{
+    float: left;
+    font-family: roboto;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.flecha_dere_boletin{
+    width: 15%;
+    float: right;
+    padding: 8px 8px 0 0;
+}
+/*finaliza boletin*/
+
 
 
 
