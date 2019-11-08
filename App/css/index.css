@@ -14,12 +14,15 @@ p { margin: 0 !important;}
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 .-fondoHome {
     background-image: url(../assets/images/Image\ 90.png);
-    height: 600px;
-    width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 43vw;
+    width: 100%;
+    min-width: 90%;
 }
+.-texto-alejandria { padding-left: 20px;}
  .-row-home{ width: 100%; height: 100%; margin: 0 !important;}
-
+.-texto-familia {padding-top: 15px;}
 .-pdd-0-i { padding: 0 !important;}
 
 .-proyectos-bogota {
@@ -33,6 +36,7 @@ p { margin: 0 !important;}
     display: flex;
     align-items: center;
     margin: 0 auto;
+    padding:5px;
 }
 
 
@@ -52,13 +56,14 @@ p { margin: 0 !important;}
 }
 
 
-
+.-content-bg-card { background-color: white; border-top-left-radius: 15px; border-top-right-radius: 15px;}
 
 
 .-en {
     font-size: 16px;
     font-weight: 400;
 }
+.-hr-card { width: 90%; border: 1px solid #D3CDC7; margin: 15px auto;}
 
 .-imgflecha {
     width: 20px;
@@ -67,7 +72,6 @@ p { margin: 0 !important;}
     margin-right: 13px;
 }
 .-col-home-left { width: 100%; height: 100%; display: flex !important; flex-direction: column;}
-
 .-contenedor-alejandria {
     background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
@@ -76,6 +80,7 @@ p { margin: 0 !important;}
     width: 372px;
     height: 411px;
     margin: 25px auto 0 auto;
+    background-color: #F9F5F3;
 
 }
 .-p-center { height: 475px;width: 372px; margin: auto; margin-bottom: -80px; }
@@ -148,18 +153,83 @@ p { margin: 0 !important;}
     
 
 }
-.-p-icon-alejandria { 
-    margin: 0 10px 0;
+/* Inicio Sección Encuentra tu Hogar Soñado*/
+.-hogar-sonado {
+   padding: 200px 0;
 }
 
-.-btn-descubrir {
+.-encuentra {
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(5, 98, 50, 1);
+    text-transform: uppercase;
+
+}
+.--container-fluid-section-two-soñado { 
+    padding: 0 10% !important; background-color:#F9F5F3 ;
+}
+.-hogar {
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(5, 98, 50, 1);
+    text-transform: uppercase;
+}
+
+.-p-hogar-ideal {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(80, 71, 65, 1);
+}
+
+.-centrar-hogar {
+    text-align: center;
+}
+
+.-ciudad-sector {
+    width: 556px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-
-
+.-precio-area {
+    width: 556px;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    opacity: 1;
+}
+/* Final Sección Encuentra tu Hogar Soñado*/
+.--container-fluid-section-project { 
+    padding: 20px 10% !important;
+}
+.--btn-contact-layout-image { 
+    width: 100px;
+    height: 100px;
+}
+.-p-icon-alejandria { 
+    margin: 0 10px 0;
+}
+.-content-text-right-image { 
+    padding-left:15px  ; display: flex; flex-direction: column;
+}
+.--btn-contact-layout { 
+   border-radius: 75px; background-color: transparent;
+    position: sticky; bottom: 150px; left: 93%; border: none; display: flex; justify-content: center; align-items: center;
+}
+.-btn-descubrir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.-content-arrows-card-cali-home { width: 100%; display: flex; justify-content: space-between; padding: 20px 30px 0 10px !important;}
+.-text-cali-green-card { color:#008C44 ; font-size: 26px; font-weight: 700; margin: 15px 0 0 15px;}
+.-content-card-cali-icon { width: 100%; display: flex;}
+.-text-green-card-cali-home {color: #008C44; font-size: 18px; font-weight: 700; letter-spacing: 1.08px;}
+.-text-gray-card-cali-home {color: #504741; font-size: 16px; font-weight: 400; letter-spacing: 1.28px;}
 .-btn-mas {
     font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 1);
@@ -178,11 +248,11 @@ p { margin: 0 !important;}
     align-items: center;
     line-height: 2.0em;
     padding: 0 25px 0 20px;
-    margin: 0 auto;
+    margin: 15px auto 0;
    
 }
  .-p-card-right-home { width: 469px; height:205px; margin: auto auto 0;  margin-bottom: -105px; }
- .-content-left-card-cali { width: 50%; height: 100%;}
+ .-content-left-card-cali { width: 50%; height: 100%; padding: 30px 0 0 20px} 
 
 .-contenedor-cali {
     width: 469px;
@@ -560,7 +630,7 @@ opacity: 1;
     margin: 0 auto;
 }
 
-.section_life { width: 100%; height: 360px; background: url(../assets/images/AdobeStock_202248905.png); background-size: cover;}
+.section_life { width: 100%; height: 25vw; background: url(../assets/images/AdobeStock_202248905.png); background-size: cover;}
 .text_section-life { width: 100%; color: white; font-size: 400; font-size: 40px; text-transform: uppercase; display: block;}
 .btn-meet { display: flex; justify-content: space-between; padding: 0 25px; align-items: center; width: 294px; height: 50px; border: none; border: solid 2px white; border-radius: 25px; background-color: transparent; color: white; font-size: 16px; font-weight: 400; }
 .p-center__text { width: 50%;}
