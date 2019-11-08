@@ -667,7 +667,9 @@ opacity: 1;
 .--container-search-green-section-two {width: 100%;  margin:  0 5%; display: flex; justify-content: flex-end;}
 .--style-search-section-two { display: flex; align-items: center; padding-left: 30px; border: none; width: 270px; height: 48px; background-color:#008C44; border-radius: 30px; box-shadow: 0px 3px 6px #00000029;}
 .--style-search-section-two input[type=search]::placeholder {  color: white; font-size: 16px; font-weight: 500; }
-.-input-search-green-section-two { background-color: transparent; width: 80%; border: none; color: white;}
+.-input-search-green-section-two { cursor: pointer; background-color: transparent; width: 80%; border: none; color: white;}
+.btn-icon-search { background-color: transparent; cursor: pointer; border: none;}
+
 /* Finaliza sección Nuestra Vida-Obra */
 
 /* FINAL HOJA DE ESTILOS DEL HOME - MAQUETA 1*/
