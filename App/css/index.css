@@ -719,7 +719,7 @@ opacity: 1;
 }
 .titulo_ciudad{
     color: #056232;
-    font-family:'Roboto', sans-serif;
+    font-family: Roboto;
 }
 .boton_buscar_ciudad{
     border-radius: 25px;
@@ -738,7 +738,7 @@ opacity: 1;
     margin: 5px;
 }
 .letra{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
 }
 .titulo_ciudad{
     color: green;
@@ -754,7 +754,7 @@ opacity: 1;
 }
 /*Finaliza una ciudad*/
 
-/*comienza busqueda avanzada*//*
+/*comienza busqueda avanzada*/
 .busqueda_avanzada{
     background-image:url(../assets/images/AdobeStock_279721422.png);
     height: 120px;
@@ -786,14 +786,14 @@ opacity: 1;
 }
 
 .titulo_bogota{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     font-size: 18px;
     font-weight: bolder;
     color: #504741;
 }
 
 .selecciona_sector{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     font-weight: bolder;
     float: left;
     color:#504741;
@@ -801,7 +801,7 @@ opacity: 1;
 }
 
 .titulo_busqueda{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     margin: auto;
     line-height:51px;
 }
@@ -825,7 +825,7 @@ opacity: 1;
     padding: 0;
 }
 .boton_buscar{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     background: #05AC56;
     color: white;
     border-radius: 25px;
@@ -854,107 +854,266 @@ opacity: 1;
     border: 2px solid #504741;
     border-radius: 4px;
     padding-right: 10px;
-}*/
+}
 /*Finaliza busqueda avanzada*/
-/*Comienza sendero*/
-.img_sendero{
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 350px;
-}
-.img_sendero_pequeña{
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 123px;
-}
-.img_parque_pequeña{
-    width: 85%;
-}
-.img_gimnasio_pequeño{
-    width: 85%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-.titulo_ilarco{
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    color: #504741;
-}
-.titulo_bogota{
-    font-family: 'Roboto', sans-serif;
-    color: #504741;
-}
-.espacio_iconos_senderos{
-    margin: 5px 10px;
-}
-.texto_momentos_inolvidables{
-    color: #757577;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    font-size: 13px;
-    opacity: 0.5;
-}
-.contenedor_sendero{
-    border-radius: 15px;
-    background: #DED6CF;
-}
-.separador_sendero{
-    width: 100%;
-    opacity: 0.5;
-}
-/*finaliza sendero*/
 
 /*comienza Resultado busqueda*/
-
-.espacio_entre_card_proyectos{
-    height: 30px;
+.bajar_texto{
+    margin-top: 100%;
 }
-.quince{
-    font-weight: bold;
+.espacio_resultados{
+    background: #F9F5F3;
 }
-.ocho{
-    font-weight: bold;
-    font-size:12px;
-    color:#008C44;
-
-}
-.titulo-resultado-busqueda{
+.resultado_busqueda{
     color: #008C44;
-    margin-bottom: 30px;
+    font-family: roboto;
+    font-size: 24px;
 }
-.titulo-resultado-busqueda-encontrados{
-    color: #504741;
-    font-weight: bolder;
-    font-size:12px;
-
-}
-.separador_resultado_busqueda{
-    width: 50%;
+.separador_resultado{
+    background-color: grey;
+    width: 65%;
     opacity: 0.5;
 }
-/*finaliza Resultados busqueda*/
-/*comienza otros proyectos*/
-.titulo-otros-proyectos{
-    color: #504741;
-    font-family:'Roboto', sans-serif;
-    font-weight: bold;
-    margin-bottom: 25px;
+.letra_proyectos_encontrados{
+    font-family: roboto;
+    color: grey;
+}
+.ocho{
+    color: #008C44;
+}
+.contenedor_resultado_alejandria{
+    border-radius: 15px;
+    height: 300px;
+    max-width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/Image\ 4.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
 
 }
-/*otros proyectos*/
+
+.contenedor_resultado_ilarko{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/ilarco_114-img1.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor_resultado_living{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/alto-living-foto-ago-2-2019.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+}
+
+.contenedor_resultado_prado{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/mirla-img_1-amp.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hover_ensayo{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    margin: 20px 35px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.head{
+    height: 100px;
+    background: #E5E0DB;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img_prueba{
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 20px 0 0 20px;
+}
+.letra_prueba{
+    color: grey;
+    font-size: 10px;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 25px;
+}
+.body{
+    background: #008C44;
+    height: 200px;
+    display: block;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.btn_ver_detalles{
+    border-color: white;
+    color: white;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    background: #008C44;
+    width: 80%;
+    font-size: 14px;
+    font-family: roboto;
+}
+.letra_precio_pequeño{
+    font-size: 12px;
+    font-family: roboto;
+    color: white;
+    text-align: center;
+
+}
+.precio{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.usd_cop{
+    float: right;
+    padding: 15px 15px 0 0;
+}
+.pies_metros{
+    float: right;
+    padding: 15px 15px 0 0;
+    width: 35%;
+}
+.centrar{
+    text-align: center;
+}
+
+.boton_cargar_proyectos{
+    background-color: white;
+    border-color:  #037F43;
+    border-radius: 35px;
+    width: 25%;
+    color: #037F43;
+    text-align: left;
+    padding-left: 50px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    font-weight: 500;
+}
+.fondo_boton{
+    background-color: #F9F5F3;
+}
+
+.mas{
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    
+}
+/*finaliza resultado busqueda*/
+/*comienza Otros proyectos*/
+
+.titulo_otro_proyectos{
+    font-family: roboto;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 45px 0;
+    color: grey;
+}
+.contenedor_proyectos_living{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/alto-living-foto-ago-2-2019.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+
+}
+.contenedor_proyectos_prado{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/mirla-img_1-amp.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenedor_proyectos_ilarco{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/ilarco_114-img1.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+
+}
+.contenedor_proyectos_alejandria{
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-image: url(../assets/images/Image\ 4.png);
+    margin: 20px 35px;
+    background-repeat: no-repeat;
+}
+.color_nombre{
+    color: grey;
+}
+.text_color{
+    color: white;
+}
+.entrega_inmediata{
+    font-size: 11px;
+    background: #FCDA5F;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+}
+.lanzamiento{
+    font-size: 11px;
+    background: #8033E8;
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+}
+.letra_chica{
+    font-size: 10px;
+    color: white;
+    font-family: roboto;
+}
+.letra_mediana{
+    font-size: 12px;
+    color:white;
+    font-family: roboto;
+    border-bottom: 1px solid white
+}
+.espacio_proyecto{
+    margin-bottom: 10rem;
+    background: #F9F5F3;
+}
+/*finaliza otros proyectos*/
 
 /*comienza testimonio*/
 .centrar_titulo{
     text-align: center;
-    font-family:'Roboto', sans-serif;
+    font-family: Roboto;
     color: #504741;
 }
 .titulo_testimonio{
     text-align: center;
-    font-family:'Roboto', sans-serif;
+    font-family: Roboto;
     font-weight: bold;
     color:#504741;
 }
@@ -962,19 +1121,17 @@ opacity: 1;
     float: left;
     border-radius: 100%;
     margin-right: 10px;
-    width: 50%;
 }
 .nombre{
     color: #504741;
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     margin-top: 10%;
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
     float:left;
 }
 .texto_testimonio{
-    font-family:'Roboto', sans-serif;
+    font-family: roboto;
     text-align: justify;
     color: #504741;
 }
@@ -983,10 +1140,8 @@ opacity: 1;
     opacity: 0.5;
 }
 .flecha_atras{
-    float: right;
-    text-align: center;
-    margin: 25%
-    
+    float: left;
+    margin-top: 50%;
 }
 .flecha_adelante{
     float: right;
@@ -1002,4 +1157,67 @@ float: left;
 
 /*finaliza testimonio*/
 
+/*Comienza boletin*/
+.fondo_boletin{
+    background-color: green;
+}
+.boletin{
+    padding: 27px 0 0px 82px;
+
+}
+.titulo_boletin{
+    font-family: roboto;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin:0;
+}
+.texto_boletin{
+    font-family: roboto;
+    color: white;
+    font-size: 12px;
+}
+.correo{
+    border: none;
+    background: transparent;
+    color: white;
+    margin: 10% ;
+    width: 227px;
+    margin-bottom: 0 !important;
+    border-bottom-color: white;
+}
+.separador_correo{
+        background-color: white;
+        width: 65%;
+        opacity: 0.5;
+        margin-top: 0 !important;
+        margin: 10%;
+}
+.boton_boletin{
+    color: #008C44;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    height: 30%;
+    display: block;
+    margin: 10%;
+    width: 50%;
+}
+.texto_btn_boletin{
+    float: left;
+    font-family: roboto;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.flecha_dere_boletin{
+    width: 15%;
+    float: right;
+    padding: 8px 8px 0 0;
+}
+/*finaliza boletin*/
+
+
+
+
 select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: none;}
+
