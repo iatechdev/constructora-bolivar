@@ -629,7 +629,9 @@ opacity: 1;
     padding: 0 25px 0 35px;
     margin: 0 auto;
 }
-
+.--content-selects-section-two { width: 100%; display: flex; justify-content: space-between; padding: 0 10%; ;}
+.--title-selects-section-two { color:#504741 ; font-size: 14px; font-weight: 700;}
+.--content-right-section-two{ width: 100%; height: 100%; }
 .section_life { width: 100%; height: 25vw; background: url(../assets/images/AdobeStock_202248905.png); background-size: cover;}
 .text_section-life { width: 100%; color: white; font-size: 400; font-size: 40px; text-transform: uppercase; display: block;}
 .btn-meet { display: flex; justify-content: space-between; padding: 0 25px; align-items: center; width: 294px; height: 50px; border: none; border: solid 2px white; border-radius: 25px; background-color: transparent; color: white; font-size: 16px; font-weight: 400; }
@@ -639,10 +641,18 @@ opacity: 1;
 .mg--top-10 {margin-top: -10px; }
 .mg--top-5 { margin-top: 5px;}
 .pdd--box { padding: 20px 0 20px 20px}
-.d-block { display: block;}
+.d-block { display: block !important; }
 .-row-sub-card-back { width: 100%; display: flex; justify-content: space-between;}
-
-
+.--style-selects-section-two { width: 222px; height: 30px;
+     background-color: transparent; border: none; margin-top: 5px; border-bottom: solid 1px #FCDA5F;
+      color:#A09995; font-size: 14px; background: url(../assets/images/arrow-bot-marron.svg) no-repeat right; } 
+.prueba { width: 100%; height: 50px; background-color: green;}
+.--d-flex-column { display: flex; flex-direction: column !important; margin: 0 2%;}
+.--card-right-section-two-white { width: 100%; padding: 20px 10px; border-radius: 15px;
+     box-shadow: 0px 20px 30px #00000026; background-color: white;
+     margin: 30px 5%; 
+    }
+.--row-grid-card {width: 100%; display: grid; grid-template-columns: repeat(4, 25%);}
 /* Finaliza sección Nuestra Vida-Obra */
 
 /* FINAL HOJA DE ESTILOS DEL HOME - MAQUETA 1*/
@@ -1164,4 +1174,6 @@ float: left;
 
 
 
+
+select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: none;}
 
