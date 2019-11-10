@@ -7,8 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../js/funciones.js">
+    <script src="../js/funciones.js"> </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -693,58 +704,67 @@
 
 
     <!--Comienza "Elige una ciudad"-->
-    <section class=" container-fluid fondo_ciudad">
-        <div class="row">
-            <h1 class="titulo_ciudad">ELIGE UNA CIUDAD </h1>
-            <div class="hr">
-                <hr>
+    <section class="fondo_ciudad">
+        <div class="container-fluid">
+            <div class="row col-12">
+                <h1 class="titulo_ciudad">ELIGE UNA CIUDAD </h1>
+                <div class="hr">
+                    <hr>
+                </div>
+                <select class="fondo_buscar_ciudad  pointer boton_buscar_ciudad" name="select">
+                    <img class="btn_mas" src="../assets/images/right-arrow(3).png" alt="">
+                    <option class="pointer opcion_ciudad" value="Buscar" selected>Buscar en otra ciudad </option>
+                    <option class="pointer opcion_ciudad" value="Cajicá">Cajicá</option>
+                    <option class="pointer opcion_ciudad" value="Cartagena">Cartagena</option>
+                    <option class="pointer opcion_ciudad" value="Funza">Funza</option>
+                    <option class="pointer opcion_ciudad" value="Madrid">Madrid</option>
+                    <option class="pointer opcion_ciudad" value="Santa Marta">Santa Marta</option>
+                </select>
+
             </div>
-            <button class="boton_buscar_ciudad"><span> Buscar en otra ciudades</span>
-                <img class="btn_mas" src="../assets/images/right-arrow(3).png" alt=""></button>
-        </div>
-        <div class="row contenedor_ciudad">
-            <div class="col-4 col-md-4 col-sm-6">
-                <img class="img_pequeña_ciudad" src="../assets/images/Group 467.png" alt="">
-                <p class="letra"><span class="titulo_ciudad"><strong>Bogotá</strong><br></span>
-                    <span><strong> Encuentra aqui los proyectos que tenemos en la capital económica del
-                            pais.</strong></span></p>
-            </div>
-            <div class="col-4 col-md-4 col-sm-6">
-                <img class="img_pequeña_ciudad" src="../assets/images/Group 469.png" alt="">
-                <p class="letra"><span class="titulo_ciudad">Cali</span> <br>
-                    <span>Conoce aqui nuestros hermosos proyectos en la sucursal del cielo.</span></p>
-            </div>
-            <div class="col-4 col-md-4 col-sm-12">
-                <img class="img_pequeña_ciudad" src="../assets/images/Group 473.png" alt="">
-                <p class="letra"><span class="titulo_ciudad">Barranquilla</span> <br>
-                    <span>Descubre aqui las propiedades que tenemos para ti en la puerta de oro.</span></p>
+            <div class="row contenedor_ciudad">
+                <div class="col-4 ">
+                    <img class="img_pequeña_ciudad" src="../assets/images/Group 467.png" alt="">
+                    <p class="letra"><span class="titulo_ciudad"><strong>Bogotá</strong><br></span>
+                        <span><strong> Encuentra aqui los proyectos que tenemos en la capital económica del
+                                pais.</strong></span></p>
+                </div>
+                <div class="col-4 ">
+                    <img class="img_pequeña_ciudad" src="../assets/images/Group 469.png" alt="">
+                    <p class="letra"><span class="titulo_ciudad">Cali</span> <br>
+                        <span>Conoce aqui nuestros hermosos proyectos en la sucursal del cielo.</span></p>
+                </div>
+                <div class="col-4 ">
+                    <img class="img_pequeña_ciudad" src="../assets/images/Group 473.png" alt="">
+                    <p class="letra"><span class="titulo_ciudad">Barranquilla</span> <br>
+                        <span>Descubre aqui las propiedades que tenemos para ti en la puerta de oro.</span></p>
+                </div>
             </div>
         </div>
     </section>
 
     <!--Finaliza "Elige una ciudad"-->
-
     <!--Comienza "Busqueda avanzada"-->
-    <section class="container-fluid">
-        <div class="busqueda_avanzada col-12">
-            <h1 class="col-12 titulo_busqueda">BUSQUEDA AVANZADA <span><strong>BOGOTÁ</strong></span></h1>
+    <section class="container-fluid fonde_busqueda_avanzada">
+
+        <div>
+            <img class="img_busqueda_avanzada" src="../assets/images/busquedavanzada.jfif" />
         </div>
-        <div class="container row">
-            <div class="row col-12 col-md-3 col-sm-12 contenedor_sector">
-                <div class="bogota">
-                    <img class="img_castillo" src="../assets/images/Group 1212.png" alt="">
-                    <h3 class="titulo_bogota">Bogotá <img src="../assets/images/Path 2497.png" alt=""></h3>
-                </div>
-                <div class="bogota">
-                    <p class="selecciona_sector">Selecciona sector <br>
-                        <span class="sector">Sector <img class="flecha_abajo_sector"
-                                src="../assets/images/Path 2497.png" alt="">
-                            <hr class="separador_sector"></span><br>
-                    </p>
-                </div>
+
+    </section>
+
+    <!--Finaliza "Busqueda avanzada"-->
+
+    <!--Comienza "Sendero ecologico"-->
+    <section class="container-fluid">
+        <div class="row fondo_sendero">
+            <div class="col-4">
+                <img class="img_sendero" src="../assets/images/Image 94.png" alt="">
             </div>
-            <div class="col-12 col-md-6 col-sm-12 contenedor_precio">
-                <h2 class="text-center ">mundo</h2>
+            <div class="col-2">
+                <img class="img_sendero_pequeña" src="../assets/images/Image 94.png" alt="">
+                <img class="img_parque_pequeña" src="../assets/images/d0b95744d1f5d2a8e69d504f1a936da6.png" alt="">
+                <img class="img_gimnasio_pequeño" src="../assets/images/058c97c29a60de86fae78389a5db0c89.png" alt="">
             </div>
             <div class="col-12 col-md-3 col-sm-12 contenedor_buscar row">
                 <div>
@@ -756,163 +776,894 @@
                             <span>Mapa</span><img src="../assets/images/map.png" alt=""> |
                             <span>Lista</span><img src="../assets/images/list.png" alt="">
                         </p>
-                    </div>
+            <div class="col-6">
+                <p> <span class="titulo_ilarco">Ilarco</span>
+                    <span class="titulo_bogota"><br> Bogotá</span>
+                </p>
+                <div class="row">
+                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Juegos de mesa"
+                        src="../assets/images/Group 1530.png" alt="Dados">
+                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Senderos ecologicos"
+                        src="../assets/images/Group 1524.png" alt="Materas">
+                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Ping Pong"
+                        src="../assets/images/Group 1531.png" alt="ping pong ">
+                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Duchas"
+                        src="../assets/images/Group 1525.png" alt="duchas">
                 </div>
-                <div class="contenedor_mensaje">
-                    <button class="boton_mensaje"><img src="../assets/images/speech-bubble-with-text-lines.png"
-                            alt=""></button>
+                <p class="texto_momentos_inolvidables">El lugar ideal para soñar, crecer y vivir <br> momentos
+                    inolvidables junto a tu familia.</p>
+                <div class="col-8 contenedor_sendero">
+                    <div class="col-4 ">
+                        <div class="row">
+                            <div>
+                                <span class="titulo_area_precio">Precio</span>
+                                <span class="desde_hasta">Desde</span>
+                                <span class="precio_metros">$ 89,900,000</span>
+                            </div>
+                            <div>
+                                <span class="desde_hasta">Hasta</span>
+                                <span class="precio_metros">$ 488,900,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="separador_sendero">
+                    <div class="col-4  ">
+                        <div class="row">
+                            <div>
+                                <span class="titulo_area_precio">Área construida</span>
+                                <span class="desde_hasta">Desde</span>
+                                <span class="precio_metros">47,67 m²</span>
+                            </div>
+                            <div>
+                                <span class="desde_hasta">Hasta</span>
+                                <span class="precio_metros">147,67 m²</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn_ver_detalle">
+                        <span class="letra_boton_detalle">Ver detalle</span>
+                        <img class="flecha_boton_derecha" src="../assets/images/right-arrow(2)-1.png" alt="">
+                    </button>
+
+                </div>
+                <div>
+
                 </div>
             </div>
         </div>
     </section>
-
-    <!--Finaliza "Busqueda avanzada"-->
-
-    <!--Comienza "Sendero ecologico"-->
 
     <!--Finaliza "Sendero ecologico"-->
-
     <!--Comienza "Resultados de busqueda"-->
-    <section class="espacio_resultados container-fluid">
+    <section class="fondo_resultado container-fluid --container-fluid-section-project">
+        <div class="col-12 row">
+            <h3 class="titulo-resultado-busqueda"><span class="quince"> 15 </span> Resultados de búsqueda</h3>
+            <hr class="separador_resultado_busqueda">
+        </div>
+        <div class="col-12 row">
+            <h3 class="titulo-resultado-busqueda-encontrados"><span class="ocho"> 8 </span> / 15 Proyectos encontrados:
+            </h3>
+        </div>
         <div class="row">
-            <p class="resultado_busqueda"><span><strong>15</strong></span> <span>Resultados de búsqueda</span></p>
-            <hr class="separador_resultado">
-        </div>
-        <div class="row col-12">
-            <p class="letra_proyectos_encontrados"><span><strong class="ocho">8</strong></span> <span>/ 15 Proyectos
-                    encontrados:</span></p>
-        </div>
-        <div class="row col-12">
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_alejandria">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Bogotá / Norte</span> <br>
-                        <span class="letra_chica"> Chicó</span>
-                    </p>
-                    <div class="lanzamiento">LANZAMIENTO</div>
-                    <h4><span class="color_nombre"> Alejandria </span> <br> Mediterraneo</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 hover_ensayo ">
-                <div class="head">
-                    <img class="img_prueba" src="../assets/images/imagen-de-prueba-320x240 (1).jpg" alt="">
-                    <p class="letra_prueba">Bogota <br> Zona Norte / <br> Chicó</p>
-                </div>
-                <div class="body">
-                    <div>
-                        <img class="usd_cop" src="../assets/images/Group 827.png" alt="">
-                        <p class="centrar"><span class="letra_precio_pequeño"> Precio desde</span><br><span
-                                class="precio">$ 250,343,343</span></p>
-                    </div>
-                    <div>
-                        <img class="pies_metros" src="../assets/images/Group 1494.png" alt="">
-                        <p class="centrar"><span class="letra_precio_pequeño"> Area construida</span><br><span
-                                class="precio">46,60m² | 135,90m²</span></p>
-                    </div>
+            <!--Inicio Primera Card-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body1">
+                            <div class="-p-card-end">
 
-                    <button class="btn_ver_detalles">Ver detalle</button>
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_living">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Cali / Norte</span> <br><span class="letra_chica"> Pance</span>
-                    </p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4><span class="color_nombre"> Alto </span><br> Living</h4>
+            <!--Fin Primera Card-->
+
+            <!--Inicio Segunda Card-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body2">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_prado">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Barranquilla / Norte</span><br><span class="letra_chica"> La
-                            alameda
-                            del rio</span></p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4><span class="color_nombre"> Prado </span><br> Park</h4>
+            <!--Fin Segunda Card-->
+
+            <!--Inicio Tercera Card-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body3">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Cali / Norte</h3>
+                                <h3 class="-card-zona">Pance</h3>
+                                <span class="-insignia-card-three">ENTREGA INMEDIATA</span>
+                                <p class="-card-subtitle">Alto</p>
+                                <p class="-card-subzona"> <strong> Living </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body3-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!--Fin tercera Card-->
+
+            <!--Inicio Cuarta Card-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body4">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Barranquilla / Zona norte</h3>
+                                <h3 class="-card-zona">La alameda del río</h3>
+                                <span class="-insignia-card-three">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Prado</p>
+                                <p class="-card-subzona"> <strong> Park </strong> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body4-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Cuarta Card-->
         </div>
-        <div class="row col-12">
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_living">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Cali / Norte</span> <br><span class="letra_chica"> Pance</span>
-                    </p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4><span class="color_nombre"> Alto </span><br> Living</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_prado">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Barranquilla / Norte</span><br><span class="letra_chica"> La
-                            alameda
-                            del rio</span></p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4><span class="color_nombre"> Prado </span><br> Park</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_ilarko">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Bogotá / Norte</span><br><span class="letra_chica"> Chicó</span>
-                    </p>
-                    <div class="lanzamiento">LANZAMIENTO</div>
-                    <h4><span class="color_nombre"> Ilarco </span> <br> 114</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_resultado_alejandria">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Bogotá / Norte</span> <br><span class="letra_chica"> Chicó</span>
-                    </p>
-                    <div class="lanzamiento">LANZAMIENTO</div>
-                    <h4><span class="color_nombre"> Alejandria </span> <br> Mediterraneo</h4>
-                </div>
-            </div>
-        </div>
-        <div>
-            <button class="boton_cargar_proyectos"><span>Cargar mas proyectos</span>
-                <img class="mas" src="../assets/images/right-arrow(3).png" alt=""> </button>
-        </div>
+        <div class="espacio_entre_card_proyectos">
+
         </div>
 
+        <div class="row">
+            <!--Inicio Quinta Card-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body1">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin quinta Card-->
+
+            <!--Inicio sexta Card-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body2">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin sexta Card-->
+
+            <!--Inicio septima Card-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body3">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Cali / Norte</h3>
+                                <h3 class="-card-zona">Pance</h3>
+                                <span class="-insignia-card-three">ENTREGA INMEDIATA</span>
+                                <p class="-card-subtitle">Alto</p>
+                                <p class="-card-subzona"> <strong> Living </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body3-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin septima Card-->
+
+            <!--Inicio octava Card-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body4">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Barranquilla / Zona norte</h3>
+                                <h3 class="-card-zona">La alameda del río</h3>
+                                <span class="-insignia-card-three">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Prado</p>
+                                <p class="-card-subzona"> <strong> Park </strong> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body4-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin octava Card-->
+        </div>
+        <div class="-centrar-boton-proyectos">
+            <!--al final de la cuarta card-->
+            <button type="button" class="-btn-conocer-proyectos"><span>Cargar más proyectos</span><img
+                    src="../assets/images/right-arrow(3).png" class="image-arrow-right" alt=""></button>
+        </div>
+        <!--antes del cierre del section de proyectos-->
     </section>
+    <!--Finaliza Proyectos-->
 
     <!--Finaliza "Resultados de busqueda"-->
 
     <!--Comienza "otros proyectos"-->
-    <section class="container-fluid espacio_proyecto">
-        <div class="row col-12">
-            <div class="col-lg-12">
-                <h2 class="titulo_otro_proyectos ">OTROS PROYECTOS QUE TE PUEDEN INTERESAR</h2>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_proyectos_living">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Cali / Norte</span> <br><span class="letra_chica"> Pance</span></p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4 class="text_color"><span class="color_nombre"> Alto </span><br> Living</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_proyectos_prado">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Barranquilla / Norte</span><br><span class="letra_chica"> La alameda
-                            del rio</span></p>
-                    <div class="entrega_inmediata">ENTREGA INMEDIATA</div>
-                    <h4 class="text_color"><span class="color_nombre"> Prado </span><br> Park</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_proyectos_ilarco">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Bogotá / Norte</span><br><span class="letra_chica"> Chicó</span></p>
-                    <div class="lanzamiento">LANZAMIENTO</div>
-                    <h4 class="text_color"><span class="color_nombre"> Ilarco </span> <br> 114</h4>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-12 contenedor_proyectos_alejandria">
-                <div class="bajar_texto">
-                    <p><span class="letra_mediana">Bogotá / Norte</span> <br><span class="letra_chica"> Chicó</span></p>
-                    <div class="lanzamiento">LANZAMIENTO</div>
-                    <h4 class="text_color"><span class="color_nombre"> Alejandria </span> <br> Mediterraneo</h4>
-                </div>
-            </div>
+    <section class="fondo_otros_proyectos container-fluid --container-fluid-section-project mb-5">
+        <div class="col-12">
+            <h3 class="titulo-otros-proyectos">OTROS PROYECTOS QUE TE PUEDEN INTERESAR</h3>
         </div>
+        <div class="row">
+            <!--Inicio Primera Card Otros Proyectos-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body1">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Primera Card Otros Proyectos-->
+
+            <!--Inicio Segunda Card Otros Proyectos-->
+            <div class="col-md-3">
+                <div class="card -card-flip ">
+                    <div class="-card-front -text-white">
+                        <div class="-card-body2">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Bogotá / Zona norte</h3>
+                                <h3 class="-card-zona">Chicó</h3>
+                                <span class="insignia-card">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Alejandría</p>
+                                <p class="-card-subzona">Mediterráneo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body2-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Segunda Card Otros Proyectos-->
+
+            <!--Inicio Tercera Card Otros Proyectos-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body3">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Cali / Norte</h3>
+                                <h3 class="-card-zona">Pance</h3>
+                                <span class="-insignia-card-three">ENTREGA INMEDIATA</span>
+                                <p class="-card-subtitle">Alto</p>
+                                <p class="-card-subzona"> <strong> Living </strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body3-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin tercera Card Otros Proyectos-->
+
+            <!--Inicio Cuarta Card Otros Proyectos-->
+            <div class="col-md-3 -tarjetas">
+                <div class="card -card-flip -h-100">
+                    <div class="-card-front -text-white -bg-dark">
+                        <div class="-card-body4">
+                            <div class="-p-card-end">
+
+                                <h3 class="-card-title">Barranquilla / Zona norte</h3>
+                                <h3 class="-card-zona">La alameda del río</h3>
+                                <span class="-insignia-card-three">LANZAMIENTO</span>
+                                <p class="-card-subtitle">Prado</p>
+                                <p class="-card-subzona"> <strong> Park </strong> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-card-back -bg-white">
+                        <div class="-card-body4-1">
+                            <div class="-header-card-back">
+                                <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
+                                <div class="-content-info-card-back">
+                                    <span class=" -font-size-12-i"> Bogotá</span>
+                                    <span class="-chico -font-size-12-i"> Zona norte</span>
+                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                </div>
+                            </div>
+
+                            <div class="-back-card-verde">
+                                <div class="-row-card-back">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">precio desde </span>
+                                        <span class="-price-large">$250,343,343</span>
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 827.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back -mg-top-25">
+                                    <div class="-row-card-back-left">
+                                        <span class="-price-small">Area construida </span>
+                                        <div class="-row-sub-card-back">
+                                            <span class="-price-large-m -hr-border-right">
+                                                45,60m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+                                            </span>
+                                            <span class="-price-large-m -pdd-left-small">
+                                                135,90m<sup>2</sup>
+                                                <span class="-subtext-card-back">Desde</span>
+
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                    <div class="-row-card-back-right">
+                                        <img src="../assets/images/Group 1494.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="-row-card-back-button -mg-top-25">
+                                    <button class="-btn-green-card-back"> Ver detalle </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Cuarta Card Otros Proyectos-->
+        </div>
+        <!--antes del cierre del section de proyectos-->
     </section>
-    <!--Finaliza "otros proyectos"-->
+    <!--Finaliza Proyectos-->
+
+
 
     <!--Comienza "Testimonio"-->
     <section class="container-fluid ">
@@ -922,10 +1673,10 @@
         </div>
         <hr class="separador_testimonio">
         <div class="row ">
-            <div class="col-1">
+            <div class="col-2">
                 <img class="flecha_atras" src="../assets/images/right-arrow(2).png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <img class="foto_galindo " src="../assets/images/Image 24.png" alt="">
                 <h4 class="nombre">MARIO <br> GALINDO</h4>
             </div>
@@ -945,33 +1696,14 @@
         </div>
     </section>
     <!--Finaliza "Testimonio"-->
-    <!--Comienza "Boletin"-->
-    <section class="container-fluid fondo_boletin">
-        <div class="row">
-
-            <div class="col-4">
-                <p class="boletin">
-                    <span class="titulo_boletin">INSCRÍBETE A NUESTRO BOLETÍN</span><br>
-                    <span class="texto_boletin">Conoce todo lo que tenemos para ayudarte a cumplir tus sueños.</span>
-                </p>
-
-            </div>
-            <div class="col-4">
-                <input class="correo" type="text" value="" placeholder="Escribe tu correo Electrónico">
-                <hr class="separador_correo">
-            </div>
-            <div class="col-4">
-                <button class="boton_boletin"><span class="texto_btn_boletin">Inscribirme</span><img
-                        class="flecha_dere_boletin" src="../assets/images/right-arrow(2)-1.png" alt=""></button>
-            </div>
-        </div>
-
-    </section>
-
-    <!--Finaliza "Boletin"-->
-
-
-
 </body>
 
 </html>
+
+<script>
+    $(document).ready(function () {
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    });
+</script>
