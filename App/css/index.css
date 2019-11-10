@@ -1110,49 +1110,6 @@ float: left;
 
 /*finaliza testimonio*/
 
-
-
-/* 
-
- */
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
- /* 
-
- */
-
-
-
  .testimonios__subtitle {
     text-align: center;
  }
@@ -1310,6 +1267,11 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     color: #FFFFFF;
     background: transparent;
     padding: 2% 1%;
+    width: 15vw;
+    padding: 5px;
+    height: 4vh;
+    margin-top: 2% !important;
+    padding-bottom: 5%;
 }
 .testimonio__image {
     width: 92px;
@@ -1337,7 +1299,7 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     opacity: 0.5;
 }
 .separador__correo {
-    background-color: white;
+    background-color: transparent;
     width: 80%;
     margin-top: 0 !important;
     margin: 10%;
@@ -1369,6 +1331,7 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     background-repeat: no-repeat;
     background-position: center top;
     width: 120%;
+    border-radius: 10px;
 }
 
 .text__container__home {
@@ -1377,12 +1340,137 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
 
 .home__card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 5px 9px #0000001A;
-border-radius: 15px;
+    box-shadow: 0px 5px 9px #0000001A;
+    border-radius: 15px;
 }
 
 body {
     overflow-x: hidden;
 }
-select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: none;}
-button:focus {outline:0 !important;}
+
+.flecha__dere__referir{
+    width: 13%;
+    float: right;
+    padding: 6px 8px 0 0;
+    color: #FFFFFF;
+}
+
+.texto__btn__referir{
+    float: left;
+    font-family: roboto;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-bottom: 2%;
+    
+}
+
+.title__pasa__voz{
+    max-width: 15% !important;
+}
+
+.comentario__text__area{
+    resize: none;
+}
+
+.form__margin{
+    margin: 4%;
+}
+.--form__btn__enviar{
+    /* justify-content: center !important; */
+}
+
+.--from__img__btn__enviar{
+    width: 12%;
+}
+
+.--style-inputs-section-two{
+
+    width: 222px; height: 30px;
+     background-color: transparent; border: none; margin-top: 5px; border-bottom: solid 1px #FCDA5F;
+      color:#A09995; font-size: 14px; ; 
+}
+
+.--title-inputs-section-two{
+    color:#504741 ; font-size: 14px; font-weight: 700;
+}
+
+
+.--card__sala__ventas{
+    border-radius: 1.25rem !important;
+}
+
+.--card2__sala__ventas{
+    border-bottom-left-radius: 1.25rem !important;
+    border-bottom-right-radius: 1.25rem !important;
+
+}
+.container__avance__obra {
+    padding: 10% 0%;
+}
+.progress__bar__avance__obra {
+    width: 50%;
+    background-color: #E8C133 !important;
+    height: 10em !important;
+    z-index: 2;
+    border-right: 2px solid #000;
+}
+.progress {
+    height: 0.5em !important;
+    background-color: #2F2F31 !important;
+    z-index: 1;
+}
+.start__progress {
+    float: left;
+    font-size: 12px;
+}
+.end__progress {
+    float: right;
+    font-size: 12px;
+}
+
+.nav-link {
+    background: transparent !important;
+    color: #504741 !important;
+    font-weight: normal;
+}
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: transparent !important;
+    border-bottom: 2px solid green !important;
+    color: #504741 !important;
+    font-weight: bold;    
+}
+.proyecto__logo {
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+}
+.castillo__texto {
+    text-align: center;
+}
+.castillo__logo {
+    display:block;
+    margin:auto;
+}
+
+.comillas__izq {
+    margin-top: -0%;
+}
+
+.comillas__dere {
+    margin-top: 40%;
+}
+
+
+.sala__ventas__card_inf{
+    margin-top: 3%;
+}
+
+.otros__proyectos {
+    color: #000;
+}
+
+
