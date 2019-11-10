@@ -10,14 +10,16 @@
 <title>Document</title>
 </head>
 <body> 
+<!--INICIA VISTA DE ESCRITORIO-->
+<div class="view_desktop_home">
+    <div class="container-fluid -pdd-0-i">
 <!--Inicia Imagen familia-->
-<div class="container-fluid -pdd-0-i">
-<section class="-fondoHome">
-<div class="row -row-home">
+    <section class="-fondoHome">
+    <div class="row -row-home">
     <div class="col-6 col-sm-6 col-lg-6  -col-left-home -pdd-0-i">
             <div class="-col-home-left">
             
-<div class="-p-center">
+    <div class="-p-center">
         <div class="-proyectos-bogota">
             <img class="-imgcastillo" src="../assets/images/Group 821.png" alt="">
             <p class="-centro-vertical"><span class="-conoce-proyectos">Conoce nuestros proyectos</span><br><span
@@ -231,7 +233,7 @@
                                         <label for="btn_rotate_type" class="--title-selects-section-two --padd-left-small-yes  p-relative-span-section-two-house ">
                                                 Si
                                         </label>                                                
-                                        <input type="checkbox" id="btn_rotate_type" style="display:none"/>                                           
+                                        <input type="checkbox" onclick="stateBtnRotateType()" id="btn_rotate_type" style="display:none"/>                                           
                                         <label for="btn_rotate_type" class="toggle">                                                                                               
                                         <span></span>            
                                         </label> 
@@ -597,16 +599,184 @@
 </div>
 
 </div>
-
 <!--Finaliza Nuestra Vida-->
 
-<!-- BOTONES ESTATICOS EN LA PAGE -->
+</div>
+<!--FINALIZA VISTA DE ESCRITORIO-->
 
+<!--INICIA VISTA MOBILE -->
+    <div class="view_mobile_home">
+            <section class="--section_one_view_mobile_home">
+                    <h1 class="--title_section_two_mobile">ENCUENTRA TU <br> <strong>HOGAR SOÑADO </strong>  </h1>
+                    <div class="--row_section_two_mobile">
+                            <span class="--title_selects_section_one_mobile -mg-top-15 ">Selecciona una ciudad / municipio</span>
+                            <select class="--style_selects_section_two_mobile" name="" id="">
+                                <option value="all-city">
+                                    Todas las ciudades
+                                </option>
+                            </select>
+                            <span class="--title_selects_section_one_mobile -mg-top-15">Selecciona un sector</span>
+                            <select class="--style_selects_section_two_mobile" name="" id="">
+                                <option value="all-city">
+                                    Sector
+                                </option>
+                            </select>
+                            <div class="--row_grid_section_one_mobile">
+                                    <span class="--title_selects_section_one_mobile -mg-top-15 ">precio</span>
+                            </div>
+                            <div class="--row_grid_section_one_mobile">
+                                <div>
+                                        <span class="--desde_text_small mg--bot-5">Desde</span>
+                                        <select class="--style_selects_section_two_mobile" name="" id="">
+                                            <option value="all-city">
+                                                80.000 USD
+                                            </option>
+                                        </select>
+                                </div>
+                                <div>
+                                        <span class="--desde_text_small mg--bot-5">Hasta</span>
+                                        <select class="--style_selects_section_two_mobile" name="" id="">
+                                            <option value="all-city">
+                                                250.000 USD
+                                            </option>
+                                        </select>
+                                </div>
+                  <button type="button" class="--btn-rotate-card-section-two" onclick="imageRotateCurrencyMobile()">  <img  src="../assets/images/Component 1678 – 1.svg" id="imageCurrencyMobile" class="--image-cop-card-section-two" alt=""> </button> 
+
+                            </div>
+                            <div class="--row_grid_section_one_mobile">
+                                    <span class="--title_selects_section_one_mobile  -mg-top-15">Área Construida</span>
+                            </div>
+                            <div class="--row_grid_section_one_mobile">
+                                <div>
+                                        <span class="--desde_text_small mg--bot-5">Desde</span>
+                                        <select class="--style_selects_section_two_mobile" name="" id="">
+                                            <option value="all-city">
+                                                40m &#178;
+                                            </option>
+                                        </select>
+                                </div>
+                                <div>
+                                        <span class="--desde_text_small mg--bot-5">Hasta</span>
+                                        <select class="--style_selects_section_two_mobile" name="" id="">
+                                            <option value="all-city">
+                                                120m &#178;
+                                            </option>
+                                        </select>
+                                </div>
+                  <button class="--btn-rotate-card-section-two" onclick="imageRotateLengthMobile()">   <img src="../assets/images/Group 1471.svg" id="imagesLengthMobile" class="--image-pies-card-section-two" alt=""> </button>
+
+                            </div>
+                            <div class="--row_grid_section_one_mobile">
+                                    <span class="--title_btn_rotate_mobile --tac"> Subsidio vivienda </span>
+                                    <span class="--title_btn_rotate_mobile --tac"> Tipo vivienda </span>
+                            </div>
+                            <div class="--row_grid_section_one_mobile">
+                                    <div class="--container-btn-rotate-mobile">   
+                                            <label for="btn_rotate_subsidio_mobile" class="--title-selects-section-two  p-relative-span-section-two-apto-mobile ">
+                                                    No
+                                            </label> 
+                                            <label for="btn_rotate_subsidio_mobile" class="--title-selects-section-two  p-relative-span-section-two-house-mobile ">
+                                                    Si
+                                            </label>                                                
+                                            <input type="checkbox" id="btn_rotate_subsidio_mobile" style="display:none"/>                                           
+                                            <label for="btn_rotate_subsidio_mobile" class="toggle">                                                                                               
+                                            <span></span>            
+                                            </label>    
+                                    </div>
+                                    <div class="--container-btn-rotate-mobile">   
+                                            <label for="btn_rotate_type_mobile" class="--title-selects-section-two  p-relative-span-section-two-apto-mobile ">
+                                                    Apto
+                                            </label> 
+                                            <label for="btn_rotate_type_mobile" class="--title-selects-section-two  p-relative-span-section-two-house-mobile ">
+                                                    Casa
+                                            </label>                                                
+                                            <input type="checkbox" id="btn_rotate_type_mobile" style="display:none"/>                                           
+                                            <label for="btn_rotate_type_mobile" class="toggle">                                                                                               
+                                            <span></span>            
+                                            </label>    
+                                    </div>
+                            </div>
+                    
+                                <button class="--btn_green_search_mobile -mg-top-15"> <Span> Buscar</Span> <img src="../assets/images/search-icon.svg" class="--f_right_icon_search" alt=""> </button>
+                       
+                    </div>
+                  
+                </section>
+
+                <!-- INICIA  SECCION CARD MOBILE -->
+
+                <section class="--section_two_view_mobile_home">
+                    <h1 class="--title_section_two_mobile --c-marron-i"><strong> PROYECTOS </strong>  </h1>
+                    <p class="--title_section_two_mobile --size-mid-vw --c-marron-i">
+                            El hogar soñado es diferente para cada familia. Encuentra el que más se ajusta a tus necesidades.
+                    </p>
+                    <div class="-mg-top-25">
+                        <span> Desarrollo de las Card</span>
+                    </div>
+                </section>
+
+                <!-- FINALIZA  SECCION CARD MOBILE -->
+
+
+                <section class="--section_three_view_mobile_home"> 
+                    <div class="image_banner_section_three_100">
+                           <p class="--text_pasa_voz_section_three_mobile">
+                               PASA <br>
+                               <strong> LA VOZ </strong>
+                           </p>
+                        
+                    </div>
+
+                    <p class="--paragraph-pdd-box"> 
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                    </p>
+                    <div class="--w-100--">
+                        <img src="../assets/images/Group 1320.png" class="--mg-auto--" alt="">
+                    </div>
+                    <p class="--paragraph-pdd-box"> 
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                    </p>
+                    <div class="--w-100--">
+                        <img src="../assets/images/Group 1320.png" class="--mg-auto--" alt="">
+                    </div>
+                    <p class="--paragraph-pdd-box"> 
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                    </p>
+                    <div class="--w-100--">
+                        <img src="../assets/images/Group 1320.png" class="--mg-auto--" alt="">
+                    </div>
+                    <p class="--paragraph-pdd-box"> 
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                    </p>
+
+                    <button class="--btn--"> <span>Referir </span>  </button>
+                </section>
+
+
+                <!-- IINICIA  SECCION PARA EL DESARROLLO DE JUAN -->
+                <section> 
+                     <!-- DESARROLLO DE NUESTRA VIDA-->
+                </section>
+                <!-- FINALIZA  SECCION PARA EL DESARROLLO DE JUAN -->
+
+
+            </div>
+    </div>
+<!--FINALIZA VISTA MOBILE -->
+
+
+
+
+<!--INICIA BOTONES ESTATICOS EN LA PAGE -->
 <button class="--btn-contact-layout"> 
-<img src="../assets/images/Component 1673 – 15.svg" class="--btn-contact-layout-image"  alt=""> </button>
+<img src="../assets/images/Component 1673 – 15.svg" class="--btn-contact-layout-image"  alt=""> 
+</button>
+<!--FINALIZA BOTONES ESTATICOS EN LA PAGE -->
+
+
 
 <!--Inicia Script-->
-
 <script src="../js/interactivity.js"></script>
 <!--Finaliza Script-->
 
