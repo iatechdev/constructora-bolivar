@@ -1,15 +1,17 @@
 /* INICIO HOJA DE ESTILOS DEL HOME - MAQUETA 1*/
  *{ 
      font-family: Roboto, sans-serif;
+        zoom: 100%;
  }
 
 html, body {
     margin: 0;
     padding: 0;
 }
-body { width: 100%;}
 
-p { margin: 0 !important;}
+     body { width: 100%; }
+
+p { margin: 0 !important; }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 .-fondoHome {
@@ -125,7 +127,8 @@ button:focus {outline:0;}
     font-weight: 400;
 }
 .-btn-green-card-back { width: 85%; margin: 0 auto; border: solid 2px white; height: 40px ; background-color: transparent; border-radius: 24px; color: white;}
-.-mg-top-25{margin-top: 20px;}
+.-mg-top-25{margin-top: 20px !important;}
+.-mg-top-15 { margin-top: 15px !important;}
 .-chico {
     font-weight: bold;
 }
@@ -208,9 +211,10 @@ button:focus {outline:0;}
     padding: 20px 10% !important;
 }
 .--btn-contact-layout-image { 
-    width: 80px;
-    height: 80px;
+    width: 9vw;
+   
 }
+.--desde_text_small { color: #504741; font-size: 3vw; font-weight: 400; margin-top: -5px;}
 .-p-icon-alejandria { 
     margin: 0 10px 0;
 }
@@ -226,6 +230,7 @@ button:focus {outline:0;}
     flex-direction: row;
     justify-content: center;
 }
+
 .-content-arrows-card-cali-home { width: 100%; display: flex; justify-content: space-between; padding: 20px 30px 0 10px !important;}
 .-text-cali-green-card { color:#008C44 ; font-size: 26px; font-weight: 700; margin: 15px 0 0 15px;}
 .-content-card-cali-icon { width: 100%; display: flex;}
@@ -642,14 +647,15 @@ opacity: 1;
 .content__center { width: 50%; margin: 0 auto; padding-top: 60px;}
 .mg-top-40 { margin-top: 40px;}
 .mg--top-10 {margin-top: -10px; }
-.mg--top-5 { margin-top: 5px;}
+.mg--bot-5 { margin-bottom: -5px !important;}
+.mg--top-5 { margin-top: 7px !important;}
 .pdd--box { padding: 20px 0 20px 20px}
 .d-block { display: block !important; }
 .-row-sub-card-back { width: 100%; display: flex; justify-content: space-between;}
 .--style-selects-section-two { width: 222px; height: 30px;
      background-color: transparent; border: none; margin-top: 5px; border-bottom: solid 1px #FCDA5F;
       color:#A09995; font-size: 14px; background: url(../assets/images/arrow-bot-marron.svg) no-repeat right; } 
-.prueba { width: 100%; height: 50px; background-color: green; margin:  0 5%;}
+
 .--d-flex-column { display: flex; flex-direction: column !important; margin: 0 2%;}
 .--card-right-section-two-white { width: 100%; padding: 20px; border-radius: 15px;
      box-shadow: 0px 20px 30px #00000026; background-color: white;
@@ -661,7 +667,7 @@ opacity: 1;
 .--w-100-i { width: 90% !important; margin: 0 auto 0 0; }
 .--image-cop-card-section-two { width: 46px; height: 30px; margin: 0 auto;}
 .--container-btn-rotate { width: 110px; height: 30px; border: solid 2px #504741; border-radius: 4px; margin: 5px auto; }
-.--tac { text-align: center; margin: 0 auto;}
+.--tac { text-align: center;}
 .--content-left-btn-rotate{ width: 47%; height: 100%; background-color: #FCDA5F;}
 .--content-mid-btn-rotate{ width: 6%; height: 100%; background-color: #504741; opacity: 0.15;}
 .--content-right-btn-rotate { width: 47%; height: 100%; background-color: #F8F6F4;}
@@ -672,7 +678,6 @@ opacity: 1;
 .--style-search-section-two input[type=search]::placeholder {  color: white; font-size: 16px; font-weight: 500; }
 .-input-search-green-section-two { cursor: pointer; background-color: transparent; width: 80%; border: none; color: white;}
 .btn-icon-search { background-color: transparent; cursor: pointer; border: none;}
-
 /* Finaliza sección Nuestra Vida-Obra */
 
 /* FINAL HOJA DE ESTILOS DEL HOME - MAQUETA 1*/
@@ -1059,6 +1064,27 @@ float: left;
     transition: all 0.4s ease;
   }
   /*FINALIZA CHECKBOX TIPO VIVIENDA*/
+
+    /* INICIA CHECKBOX TIPO VIVIENDA MOBILE*/
+    #btn_rotate_subsidio_mobile:checked + .toggle:before {
+        background: white;
+         
+    
+      }
+      #btn_rotate_subsidio_mobile:checked + .toggle span {
+      
+    
+        background: #FCDA5F;
+        transform: translateX(100%);
+        transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+        box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+      }
+      #btn_rotate_subsidio_mobile:checked + .toggle span:before {
+        transform: scale(3);
+        opacity: 0;
+        transition: all 0.4s ease;
+      }
+      /*FINALIZA CHECKBOX TIPO VIVIENDA MOBILE*/
   
 /* INICIA CHECKBOX SUBSIDIO VIVIENDA*/
 #btn_rotate_type:checked + .toggle:before {
@@ -1080,6 +1106,27 @@ float: left;
     transition: all 0.4s ease;
   }
   /*FINALIZA CHECKBOX SUBSIDO VIVIENDA*/
+
+  /* INICIA CHECKBOX SUBSIDIO VIVIENDA MOBILE */
+#btn_rotate_type_mobile:checked + .toggle:before {
+    background: white;
+     
+
+  }
+  #btn_rotate_type_mobile:checked + .toggle span {
+  
+
+    background: #FCDA5F;
+    transform: translateX(100%);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  #btn_rotate_type_mobile:checked + .toggle span:before {
+    transform: scale(3);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  /*FINALIZA CHECKBOX SUBSIDO VIVIENDA MOBILE */
 
 
   .p-relative-span-section-two-apto  {
@@ -1103,12 +1150,60 @@ float: left;
  label { 
      cursor: pointer !important;
  }
- 
+ .--c-marron-i {  color: #504741 !important;}
 /* FINALIZA ESTILOS DE LOS CHECKBOX*/
 
-  
+.view_mobile_home { display: none;}
+@media screen and (max-width: 768px) 
+    {
+        .view_desktop_home{display: none;}
+        .view_mobile_home { display: initial;}
+        .--section_one_view_mobile_home { width: 100%; height: auto; padding: 35px 30px; background-color: #F9F5F3;}
+        .--section_two_view_mobile_home { width: 100%; height: auto; padding: 35px 30px; background-color: white; }
+        .--section_three_view_mobile_home {width: 100%; height: auto; padding: 0px 0px 35px; background-color: #F9F5F3; }
+        .--title_section_two_mobile { font-size: 7vw; letter-spacing: 2px;  color: #008C44; font-weight: 400;}
+        .--row_section_two_mobile { width: 100%; display: flex; flex-direction: column;}
+        .--title_selects_section_one_mobile { color:#504741 ; font-weight: 700; font-size: 4vw;margin-top: 5px;}
+        .--style_selects_section_two_mobile {  width: 90%;
+             background-color: transparent; border: none; border-bottom: solid 1px #FCDA5F;
+              color:#A09995; font-size: 14px; background: url(../assets/images/arrow-bot-marron.svg) no-repeat right;
+        }
+        .--row_grid_section_one_mobile { width: 100%; display: grid; grid-template-columns: repeat(2, 40%) 20%;}
+        .--title_btn_rotate_mobile  { font-size: 3vw; color: #504741; font-weight: 700; }
+         .p-relative-span-section-two-apto-mobile  {
+            position: absolute;
+             padding: 3px 0 0 5px;
+            z-index: 5;
+           
+           }
+           .p-relative-span-section-two-house-mobile {
+             position: absolute;
+              padding: 3px 0 0 20%;
+             z-index: 5;
+            
+            }
+            .image_banner_section_three_100 { width: 100%; height: 38vh; background-image: url(../assets/images/AdobeStock_181205632.png); background-size: cover;background-position-y: center; background-position-x: center;}
+            .--size-mid-vw {font-size: 5vw !important; }
+.--container-btn-rotate-mobile { width: 90%;  height: 30px; border: solid 2px #504741; border-radius: 4px; margin: 5px auto; }
+    .--btn_green_search_mobile { padding: 0 20px; width: 100%; height: 35px; background-color: #008C44; border-radius:  4px; border: none; color: white;}
+    .--f_right_icon_search { float: right;}
+    
+    }
+
+
+
+    @media screen and (max-width: 410px) {
+        .p-relative-span-section-two-house-mobile {
+            position: absolute;
+             padding: 3px 0 0 17%;
+            z-index: 5;
+           
+           }
+    }
 
 /*finaliza testimonio*/
 
+
 select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: none;}
 button:focus {outline:0 !important;}
+option { width: 100%;}
