@@ -184,18 +184,31 @@
                         <span class="--title-selects-section-two  --tac"> Tipo vivienda </span>
 
                         <!-- INICIA DESARROLO DE LOS CHECKBOX TOGGLE-->
-                            <div class="--container-btn-rotate">   
-                                    <label for="cbx" class="--title-selects-section-two  p-relative-span-section-two-apto ">
-                                            Apto
-                                    </label> 
-                                    <label for="cbx" class="--title-selects-section-two  p-relative-span-section-two-house ">
-                                            Casa
-                                    </label>                                                
-                                    <input type="checkbox" id="cbx" style="display:none"/>                                           
-                                    <label for="cbx" class="toggle">                                                                                               
-                                    <span></span>            
-                                    </label>    
-                            </div>
+                        <div class="content-labels-inputs-check-home">
+                                <label for="type-checkbox" class="--title-selects-section-two w-50-total-home --tac"> Apto</label>
+                                <label for="type-checkbox type-checkbox-two"  class="--title-selects-section-two  w-50-total-home --tac"> Casa </span>
+
+                           </div>
+
+                       <div class="--container-btn-rotate radiossubsidio">
+
+                          
+                           <label class="content-input">
+                               <input type="radio" name="tipo-vivienda" value="not"  id="type-checkbox" checked> 
+                               <i></i>
+                               
+                           </label>
+                               <div class="span-mid-btn-checkbox-section-two">
+
+                               </div>
+                               <label class="content-input">
+                                    <input type="radio" name="tipo-vivienda"  value="yes" id="type-checkbox type-checkbox-two"> 
+                                    <i></i>
+                                    
+                                </label>
+                          
+                           
+                       </div>
                         <!-- FINALIZA DESARROLO DE LOS CHECKBOX TOGGLE-->
 
                     </div>
@@ -226,18 +239,31 @@
                             </div>
                             <div class="--d-flex-column">
                                 <span class="--title-selects-section-two  --tac"> Subsidio vivienda </span>
-                                <div class="--container-btn-rotate">
-                                        <label for="btn_rotate_type" class="--title-selects-section-two --padd-left-small-no p-relative-span-section-two-apto ">
-                                                No
-                                        </label> 
-                                        <label for="btn_rotate_type" class="--title-selects-section-two --padd-left-small-yes  p-relative-span-section-two-house ">
-                                                Si
-                                        </label>                                                
-                                        <input type="checkbox" onclick="stateBtnRotateType()" id="btn_rotate_type" style="display:none"/>                                           
-                                        <label for="btn_rotate_type" class="toggle">                                                                                               
-                                        <span></span>            
-                                        </label> 
-                                </div>
+                                <div class="content-labels-inputs-check-home">
+                                        <label for="subsidio-checkbox" class="--title-selects-section-two w-50-total-home --tac"> No</label>
+                                        <label for="subsidio-checkbox subsidio-checkbox-two"  class="--title-selects-section-two  w-50-total-home --tac"> Si </span>
+       
+                                   </div>
+       
+                               <div class="--container-btn-rotate radiossubsidio">
+       
+                                  
+                                   <label class="content-input">
+                                       <input type="radio" name="subsidio" value="not"  id="subsidio-checkbox"> 
+                                       <i></i>
+                                       
+                                   </label>
+                                       <div class="span-mid-btn-checkbox-section-two">
+       
+                                       </div>
+                                       <label class="content-input">
+                                            <input type="radio" name="subsidio"  value="yes" id="subsidio-checkbox subsidio-checkbox-two" checked> 
+                                            <i></i>
+                                            
+                                        </label>
+                                  
+                                   
+                               </div>
                             </div>
                         </div>
         </div>
