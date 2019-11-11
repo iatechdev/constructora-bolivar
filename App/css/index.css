@@ -951,16 +951,82 @@ opacity: 1;
 .content-right-filter-search {width: 30%; height: 96.5%;  background-color: #C3BBB4;}
 /*Finaliza busqueda avanzada*/
 /*Comienza sendero*/
-.contenedor_sendero{
-    border-radius: 15px;
-    background: #DED6CF;
-    display: flex;
-    width: 100%;
+.style_select{
+    width: 222px; height: 30px;
+    background-color: transparent; 
+    border: none; margin-top: 5px; 
+    color:#A09995; 
+    font-size: 14px; 
+}
+.tamaño_select{
+    width: 90% !important; 
+    margin: 0 auto 0 0; 
+
+}
+.organizar_row{
+    width: 100%; 
+    display: grid; 
+    grid-template-columns: repeat(2, 50%);
+}
+
+.tooltipYellow {
+    position: relative;
+    display: inline-block;
+}
+.tooltipYellow .tiptext {
+    visibility: hidden;
+    width: 135px;
     
+    font-family: 'roboto',sans-serif;
+    background-color: #FCDA5F;
+    color:#008C44;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+    text-align: start;
+
+
+    padding: 15px ;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.tamaño_cajas{
-    width: 50%;
+.tooltipYellow .tiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
 }
+.tooltipYellow:hover .tiptext {
+    visibility: visible;
+}
+.tooltipYellow.top .tiptext{
+    margin-left: -60px;
+    bottom: 100%;
+    left: 180%;
+}
+.tooltipYellow.top .tiptext::after{
+    margin-left: -5px;
+    top: 100%;
+    left: 3.5%;
+    border-color:#FCDA5F transparent transparent#FCDA5F;
+}
+.content-img-tooltip {width: auto;}
+
+
+.contenedor_sendero{
+    width: 60%; 
+    padding: 20px; 
+    border-radius: 15px;
+    margin: 30px 5%; 
+    background-image: url(../assets/images/Group\ 1674.png);
+    background-position: center;
+    border: 1px solid #E8E2DE;
+    opacity: 100%;
+}
+
 
 .fondo_sendero{
     padding-top: 5%;
@@ -1029,18 +1095,18 @@ width: 50%;
     background: transparent;
     border-color: #037F43;
     color: #037F43;
-    font-family: 'roboto', sans-serif;
     font-weight: bolder;
     float: right;
     width: 50%;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 .letra_boton_detalle{
     float: left;
+    font-family: 'roboto', sans-serif;
 }
 .flecha_boton_derecha{
     float: right;
-    padding: 5px 10px 0 0;
+    padding: 8px 10px 0 0;
     width: 15%;
 }
 .titulo_area_precio{
