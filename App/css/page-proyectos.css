@@ -1,0 +1,51 @@
+/* .img_galeria_1{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    height: 134px;
+    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
+} */
+/* .img_galeria_2{
+    width: 85%;
+    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer; 
+
+} */
+/* .img_galeria_3{
+    width: 85%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    cursor: url("../assets/images/iconmonstr-cursor-31.svg"), pointer;
+} */
+
+.content-galeria-imagenes img{
+    height: 134px;
+    width: 85%;
+    /* height: 500px; */
+}
+
+.content-galeria-imagenes img:nth-child(1){
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* height: 500px; */
+}
+
+.content-galeria-imagenes img:nth-child(3){
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* height: 500px; */
+}
+
+.content-galeria-imagenes .img-select{
+    width: 100%;
+    height: 185px;
+}
+
+.img_sendero{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 350px;
+    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
+}

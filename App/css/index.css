@@ -1032,34 +1032,8 @@ opacity: 1;
     padding-top: 5%;
     background:#F9F5F3;
 }
-.img_sendero{
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 350px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
-    
-}
-.img_sendero_pequeña{
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 134px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
-}
-.img_parque_pequeña{
-    width: 85%;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
 
-}
-.img_gimnasio_pequeño{
-    width: 85%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.svg"), pointer;
 
-}
 .titulo_ilarco{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;

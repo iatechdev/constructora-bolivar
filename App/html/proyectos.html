@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/page-proyectos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
 </head>
@@ -144,12 +145,12 @@
     <section class="container-fluid">
         <div class="col-12 row fondo_sendero">
             <div class="col-4">
-                <img class="img_sendero" src="../assets/images/Image 94.png" alt="">
+                <img id="img-principal-seleccionada" class="img_sendero" src="../assets/images/Image 94.png" alt="">
             </div>
-            <div class="col-2">
-                <img class="img_sendero_pequeña" src="../assets/images/Image 94.png" alt="">
-                <img class="img_parque_pequeña" src="../assets/images/d0b95744d1f5d2a8e69d504f1a936da6.png" alt="">
-                <img class="img_gimnasio_pequeño" src="../assets/images/058c97c29a60de86fae78389a5db0c89.png" alt="">
+            <div class="col-2 content-galeria-imagenes">
+                <img onclick="cambiarImagen();" class="img_galeria_1 proyecto-img-galeria" src="../assets/images/Image 94.png" alt="">
+                <img onclick="cambiarImagen();" class="img_galeria_2 proyecto-img-galeria" src="../assets/images/d0b95744d1f5d2a8e69d504f1a936da6.png" alt="">
+                <img onclick="cambiarImagen();" class="img_galeria_3 proyecto-img-galeria" src="../assets/images/058c97c29a60de86fae78389a5db0c89.png" alt="">
             </div>
             <div class="col-6">
                 <p> <span class="titulo_ilarco">Ilarco</span>
@@ -1116,7 +1117,7 @@
     <!--INICIO SCRIPT-->
 
 
-
+    <script src="../js/page-proyectos.js"></script>
 </body>
 
 </html>
