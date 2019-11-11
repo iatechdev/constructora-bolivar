@@ -785,17 +785,182 @@ opacity: 1;
 /*Finaliza una ciudad*/
 
 /*comienza busqueda avanzada*/
+.separador_btn_mapa_lista{
+    background: white;
+    width: 45%;
+    opacity: 100%;
+    margin-left: 80px;
+}
+.padding_titulo_mapa_lista { 
+    padding: 15%; 
+}
+
+.titulo_mapa_lista_precio{
+    color:#504741 ; 
+    font-size: 14px; 
+    font-weight: 700;
+
+}
+.contenedor_mapa{
+   width: 47%; 
+   height: 100%; 
+   background-color: white;
+}
+.contenedor_lista{
+   width: 47%; 
+   height: 100%; 
+   background-color: #FCDA5F;
+
+}
+.contenedor_mapa_lista{
+     width: 184px;
+     border: solid 2px #504741; 
+     border-radius: 4px; 
+     margin: 5px 80px; 
+     display: flex; 
+     flex-direction: row;
+}
+.contenedor_btn_buscar{
+    display: flex; 
+    flex-direction: row;
+    margin: 5px 80px; 
+}
+.organizar_filas{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4, 25% 25% 20% 30%);
+
+}
+.ancho{
+     width: 100% !important; 
+     margin: 0 auto 0 0; 
+
+}
+.flex_column{
+   display: flex; 
+   flex-direction: column !important; 
+   margin: 0 2%;
+}
+.texto_desde_hasta{
+   color: #504741; 
+   font-size: 11px ; 
+   font-weight: 400; 
+}
+.estilo_select{
+    width: 250px; height: 30px;
+    background-color: transparent; 
+    border: none; 
+    margin-top: 5px; 
+    border-bottom: solid 1px white;
+    color:#A09995; 
+    font-size: 14px; 
+    background: url(../assets/images/arrow-bot-marron.svg) no-repeat right; 
+    opacity: 100%;
+
+}
+.boton_buscar{
+    background: #05AC56;
+    border-radius: 20px;
+    border: none;
+    width: 184px;
+    height: 30px;
+}
+.mover_lupa{
+    float: right;
+    padding: 2px 10px;
+}
+.letra_btn_buscar{
+    color: white;
+    font-size: 14px;
+    float: left;
+    padding-left: 10px;
+    font-weight: 300;
+    font-family: 'roboto', sans-serif;
+}
+.btn_otros_filtros{
+    border: #504741 solid 1.5px;
+    border-radius: 5px;
+    background: white;
+    font-size: 14px;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    color: #504741;
+    width: 100%;
+}
+.estilo_selector_bogota{
+    background: transparent;
+    border: none;
+    background: url(../assets/images/arrow-bot-marron.svg) no-repeat right; 
+    width: 70px;
+    color: #504741;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.ancho_contenedor_castillo{
+    width: 50%;
+}
+
+.centrar_castillo{
+    padding-top: 25px ;
+    padding-left: 75px !important;
+}
+.ancho_selector{
+    width: 80% !important; 
+
+}
+.odenar_columna { 
+    display: flex; 
+    flex-direction: column !important; 
+    margin: 0 2%;
+    padding-top: 35px;
+}
+.pad_img_castillo{
+   padding-left: 7px;
+}
+
+.estilo_selector{
+     width: 222px; 
+     height: 30px;
+        background-color: transparent; 
+        border: none; margin-top: 5px; 
+        border-bottom: solid 1px white;
+         color:#A09995; 
+         font-size: 14px; 
+         background: url(../assets/images/arrow-bot-marron.svg) no-repeat right; 
+         opacity: 60%;
+}
+.text_selector_busqueda{
+     color: #504741; 
+     font-size: 16px ; 
+     font-weight: bold;
+
+}
 .fonde_busqueda_avanzada{
     background: #F9F5F3;
+    width: 100%;
+    padding: 0 !important;
 }
 .img_busqueda_avanzada{
     width: 100%;
     padding: 0 !important;
 }
-
+.container-filter-search {width: 100%; height: 9vw; background-color: #E8E3E1;  display: flex; }
+.content-left-filter-search {width: 30%; height: 96.5%; background-color: #DED6CF;}
+.content-mid-filter-search{ width: 40%;height: 96.5%; padding:25px; background-color: #D8CDC4; border-left: solid 7px #C5BAB1; border-right:solid 7px #C5BAB1 ;}
+.content-right-filter-search {width: 30%; height: 96.5%;  background-color: #C3BBB4;}
 /*Finaliza busqueda avanzada*/
 /*Comienza sendero*/
-
+.contenedor_sendero{
+    border-radius: 15px;
+    background: #DED6CF;
+    display: flex;
+    width: 100%;
+    
+}
+.tamaño_cajas{
+    width: 50%;
+}
 
 .fondo_sendero{
     padding-top: 5%;
@@ -806,7 +971,7 @@ opacity: 1;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 350px;
-    cursor: url("../assets/images/iconmonstr-cursor-31-1.png"), pointer;
+    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
     
 }
 .img_sendero_pequeña{
@@ -814,7 +979,7 @@ opacity: 1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    height: 123px;
+    height: 134px;
     cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
 }
 .img_parque_pequeña{
@@ -851,9 +1016,9 @@ opacity: 1;
     opacity: 0.5;
     margin: 15px 0 !important;
 }
-.contenedor_sendero{
-    border-radius: 15px;
-    background: #DED6CF;
+
+.ancho_desde_hasta{
+width: 50%;
 }
 .separador_sendero{
     width: 100%;
@@ -997,6 +1162,7 @@ float: left;
 .comillas_dere{
     float: right;
 }
+
 
 /* INICIO ESTILOS DE LOS CHECKBOX*/
 .toggle {
