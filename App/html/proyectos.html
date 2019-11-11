@@ -7,24 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../js/funciones.js">
-    <script src="../js/funciones.js"> </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-
     <!--Comienza "Elige una ciudad"-->
     <section class="fondo_ciudad">
         <div class="container-fluid">
@@ -45,18 +32,18 @@
 
             </div>
             <div class="row contenedor_ciudad">
-                <div class="col-4 ">
+                <div class="col-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img class="img_pequeña_ciudad" src="../assets/images/Group 467.png" alt="">
                     <p class="letra"><span class="titulo_ciudad"><strong>Bogotá</strong><br></span>
                         <span><strong> Encuentra aqui los proyectos que tenemos en la capital económica del
                                 pais.</strong></span></p>
                 </div>
-                <div class="col-4 ">
+                <div class="col-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img class="img_pequeña_ciudad" src="../assets/images/Group 469.png" alt="">
                     <p class="letra"><span class="titulo_ciudad">Cali</span> <br>
                         <span>Conoce aqui nuestros hermosos proyectos en la sucursal del cielo.</span></p>
                 </div>
-                <div class="col-4 ">
+                <div class="col-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img class="img_pequeña_ciudad" src="../assets/images/Group 473.png" alt="">
                     <p class="letra"><span class="titulo_ciudad">Barranquilla</span> <br>
                         <span>Descubre aqui las propiedades que tenemos para ti en la puerta de oro.</span></p>
@@ -66,20 +53,96 @@
     </section>
 
     <!--Finaliza "Elige una ciudad"-->
-    <!--Comienza "Busqueda avanzada"-->
+    <!--Comienza "
+        +vanzada"-->
     <section class="container-fluid fonde_busqueda_avanzada">
-
-        <div>
+        <div class="col-lg-12 fonde_busqueda_avanzada">
             <img class="img_busqueda_avanzada" src="../assets/images/busquedavanzada.jfif" />
         </div>
+        <div class="container-filter-search">
+            <div class="row content-left-filter-search">
+                <div class="ancho_contenedor_castillo centrar_castillo">
+                    <div class="ordenar_img_texto">
+                        <img class="pad_img_castillo" src="../assets/images/Group 1212.png" alt="">
+                    </div>
+                    <select class="estilo_selector_bogota" name="" id="">
+                        <option value="">
+                            Bogotá
+                        </option>
+                    </select>
+                </div>
+                <div class="ancho_contenedor_castillo">
+                    <div class="odenar_columna">
+                        <span class="text_selector_busqueda"> Selecciona sector </span>
+                        <select class="estilo_selector ancho_selector" name="" id="">
+                            <option value="">
+                                Sector
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="content-mid-filter-search">
+                <div class="organizar_filas">
+                    <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Precio </span>
+                </div>
+                <div class="organizar_filas">
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Desde </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                80.000 USD
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Hasta </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                250.000 USD
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt="">
+                    </div>
+                    <div class="flex_column">
+                        <button class="btn_otros_filtros"><img style="padding: 2px"
+                                src="../assets/images/Group 1512.png" alt=""> Otros
+                            filtros</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right-filter-search">
+                <div class="contenedor_btn_buscar">
+                    <button class="boton_buscar"><span class="letra_btn_buscar"> Buscar </span>
+                        <img class="mover_lupa" src="../assets/images/search.png" alt=""></button>
+                </div>
+                <hr class="separador_btn_mapa_lista">
+                <div class="contenedor_mapa_lista">
+                    <div class="contenedor_mapa">
+                        <span class="titulo_mapa_lista_precio padding_titulo_mapa_lista ">
+                            Mapa <img src="../assets/images/map.png" alt=""></span>
+                    </div>
+                    <div class="--content-mid-btn-rotate">
+                    </div>
+                    <div class="contenedor_lista">
+                        <span class="titulo_mapa_lista_precio  padding_titulo_mapa_lista">
+                            Lista <img src="../assets/images/list.png" alt="">
+                        </span>
 
+                    </div>
+                    <span> </span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Finaliza "Busqueda avanzada"-->
 
     <!--Comienza "Sendero ecologico"-->
     <section class="container-fluid">
-        <div class="row fondo_sendero">
+        <div class="col-12 row fondo_sendero">
             <div class="col-4">
                 <img class="img_sendero" src="../assets/images/Image 94.png" alt="">
             </div>
@@ -88,70 +151,101 @@
                 <img class="img_parque_pequeña" src="../assets/images/d0b95744d1f5d2a8e69d504f1a936da6.png" alt="">
                 <img class="img_gimnasio_pequeño" src="../assets/images/058c97c29a60de86fae78389a5db0c89.png" alt="">
             </div>
-            <div class="col-12 col-md-3 col-sm-12 contenedor_buscar row">
-                <div>
-                    <button class="boton_buscar"><span> Buscar</span> <img style="float: rigth; padding-left: 45px;"
-                            src="../assets/images/search.png" alt=""></button>
-                    <hr class="separador">
-                    <div>
-                        <p class="mapa_lista">
-                            <span>Mapa</span><img src="../assets/images/map.png" alt=""> |
-                            <span>Lista</span><img src="../assets/images/list.png" alt="">
-                        </p>
             <div class="col-6">
                 <p> <span class="titulo_ilarco">Ilarco</span>
                     <span class="titulo_bogota"><br> Bogotá</span>
                 </p>
-                <div class="row">
-                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Juegos de mesa"
-                        src="../assets/images/Group 1530.png" alt="Dados">
-                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Senderos ecologicos"
-                        src="../assets/images/Group 1524.png" alt="Materas">
-                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Ping Pong"
-                        src="../assets/images/Group 1531.png" alt="ping pong ">
-                    <img class="espacio_iconos_senderos" data-toggle="tooltip" data-placement="top" title="Duchas"
-                        src="../assets/images/Group 1525.png" alt="duchas">
+                <div class="row ">
+                    <div class=" tooltipYellow top  content-img-tooltip">
+                        <span class="tiptext">Texto del tooltip</span>
+                        <img class="espacio_iconos_senderos  tooltipYellow" src="../assets/images/Group 1530.png"
+                            alt="Dados">
+                    </div>
+                    <div class="tooltipYellow top  content-img-tooltip">
+                        <span class="tiptext">Sendero ecológico</span>
+                        <img class="espacio_iconos_senderos" src="../assets/images/Group 1524.png" alt="Materas">
+
+                    </div>
+                    <div class="tooltipYellow top  content-img-tooltip">
+                        <span class="tiptext">Texto del tooltip</span>
+                        <img class="espacio_iconos_senderos  " src="../assets/images/Group 1531.png" alt="ping pong ">
+                    </div>
+                    <div class="tooltipYellow top  content-img-tooltip">
+                        <span class="tiptext">Texto del tooltip</span>
+                        <img class="espacio_iconos_senderos" src="../assets/images/Group 1525.png" alt="duchas">
+                    </div>
                 </div>
                 <p class="texto_momentos_inolvidables">El lugar ideal para soñar, crecer y vivir <br> momentos
                     inolvidables junto a tu familia.</p>
-                <div class="col-8 contenedor_sendero">
-                    <div class="col-4 ">
-                        <div class="row">
+
+                <div class="contenedor_sendero">
+                    <div class="organizar_row">
+                        <span class="  titulo_area_precio"> Precio</span>
+                    </div>
+                    <div class="organizar_row">
+                        <div>
+                            <span class="desde_hasta"> Desde </span>
                             <div>
-                                <span class="titulo_area_precio">Precio</span>
-                                <span class="desde_hasta">Desde</span>
                                 <span class="precio_metros">$ 89,900,000</span>
                             </div>
+                            <!-- <select class="style_select tamaño_select" name="" id="">
+                                <option value="">
+                                    80.000 USD
+                                </option>
+                            </select>-->
+                        </div>
+                        <div>
+                            <span class="desde_hasta"> Hasta </span>
                             <div>
-                                <span class="desde_hasta">Hasta</span>
                                 <span class="precio_metros">$ 488,900,000</span>
                             </div>
+
+                            <!-- <select class="style_select tamaño_select" name="" id="">
+                                <option value="">
+                                    80.000 USD
+                                </option>
+                            </select> -->
                         </div>
                     </div>
                     <hr class="separador_sendero">
-                    <div class="col-4  ">
-                        <div class="row">
+                    <div class="organizar_row -mg-top-25">
+                        <span class="titulo_area_precio"> Área construida
+                        </span>
+                    </div>
+                    <div class="organizar_row ">
+                        <div>
+                            <span class="desde_hasta"> Desde </span>
                             <div>
-                                <span class="titulo_area_precio">Área construida</span>
-                                <span class="desde_hasta">Desde</span>
                                 <span class="precio_metros">47,67 m²</span>
                             </div>
+                            <!--   <select class="style_select tamaño_select" name="" id="">
+                                <option value="">
+                                    40m &#178;
+                                </option>
+                            </select> -->
+                        </div>
+                        <div>
+                            <span class="desde_hasta"> Hasta </span>
                             <div>
-                                <span class="desde_hasta">Hasta</span>
                                 <span class="precio_metros">147,67 m²</span>
                             </div>
+                            <!--  <select class="style_select tamaño_select" name="" id="">
+                                <option value="">
+                                    120m &#178;
+                                </option>
+                            </select> -->
                         </div>
                     </div>
                     <button class="btn_ver_detalle">
                         <span class="letra_boton_detalle">Ver detalle</span>
                         <img class="flecha_boton_derecha" src="../assets/images/right-arrow(2)-1.png" alt="">
                     </button>
-
                 </div>
-                <div>
-
-                </div>
+                
             </div>
+        </div>
+
+        </div>
         </div>
     </section>
 
@@ -1018,14 +1112,11 @@
         </div>
     </section>
     <!--Finaliza "Testimonio"-->
+
+    <!--INICIO SCRIPT-->
+
+
+
 </body>
 
 </html>
-
-<script>
-    $(document).ready(function () {
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        });
-    });
-</script>
