@@ -176,9 +176,116 @@
 
         .content-ciudades-proyectos{
             margin-left: 20px;
-            border-bottom: 1px solid red;
+            border-bottom: 1px solid #B9B3AD;
             padding: 20px 0px 10px 0px;
         }
+
+        .content-desplegado{
+            background: #EAE2DC;
+        }
+
+        .back-castillo{
+            background: #F5EFEA;
+            box-shadow: 5px 0px 5px 5px #F5EFEA;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 30%;
+            margin-left: 8%;
+        }
+
+        .content-img-frm-busqueda-mobile{
+            width: 100%;
+            text-align: center;
+        }
+
+        .estilo-select-busqueda-avanzada{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content-block-1-busqueda-avanzada-mobile{
+            display: flex;
+            width: 100%;
+            padding: 20px 0px;
+        }
+
+        .content-block-1-busqueda-avanzada-mobile div:nth-child(2){
+            width: 40%;
+            margin-left: 10%;
+        }
+        .content-block-2-busqueda-avanzada-mobile{
+            margin-left: 8%;
+        }
+
+        .content-block-3-busqueda-avanzada-mobile{
+            margin-left: 8%;
+        }
+
+        .ordenar-filas{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 39% 33% 20% 30%);
+        }
+
+        .busqueda-avanzada-mobile{
+            display: block !important;
+            position: sticky;
+            bottom: 0px;
+            background: #504741;
+            width: 100%;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+
+        .contenedor_btn_buscar_sticky{
+            display: flex;
+            flex-direction: row;
+            margin: 8px 0px;
+            width: 100%;
+            justify-content: center;
+        }
+        .contenedor_btn_buscar_sticky .boton_buscar{
+            width: 260px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .content-busqueda-avanzada-toggle{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .content-busqueda-avanzada-toggle::after{
+            content: '';
+            position: absolute;
+            background: url(../assets/images/arrow-bot-blanco.svg) no-repeat right;
+            height: 20px;
+            width: 20px;
+            right: 40px;
+            top: 25px;
+            transform: rotate(180deg);
+        }
+
+        .content-busqueda-avanzada-toggle div{
+            width: 100%;
+        }
+
+        .content-busqueda-avanzada-toggle div:nth-child(1) p{
+           font-size: 14px;
+           color: #FFFFFF;
+        }
+
+
+        .content-busqueda-avanzada-toggle div:nth-child(2) p{
+            font-size: 21px;
+            color: #FFFFFF;
+         }
+
 
   }
 
@@ -208,12 +315,12 @@
 }
 
 .content-desde-hasta div:nth-child(1){
-    border-right: 1px solid red;
+    border-right: 1px solid #FFFFFF;
 }
 
 
 .content-valor-metros div:nth-child(1){
-    border-right: 1px solid red;
+    border-right: 1px solid #FFFFFF;
 }
 
 .content-valor-metros div{
@@ -238,4 +345,12 @@
 
 .content-ciudades-proyectos div:nth-child(1){
     width: 110px;
+}
+
+.busqueda-avanzada-mobile{
+    display: none;
+}
+
+.mystyle{
+    display: none;
 }

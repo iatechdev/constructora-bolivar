@@ -40,12 +40,12 @@
                         </div>
                         <div>
                             <p class="letra">
-                                
-                                    <span class="titulo_ciudad">
-                                        Bogotá
-                                    </span>
-                                    <br>
-                        
+
+                                <span class="titulo_ciudad">
+                                    Bogotá
+                                </span>
+                                <br>
+
                                 <span class="descripcion-ciudad"> Encuentra aqui los proyectos que tenemos en la capital
                                     económica del
                                     pais.
@@ -79,7 +79,7 @@
                         </div>
                         <div>
                             <p class="letra">
-                                <span class="titulo_ciudad">Barranquilla</span> 
+                                <span class="titulo_ciudad">Barranquilla</span>
                                 <br>
                                 <span class="descripcion-ciudad">
                                     Descubre aqui las propiedades que tenemos para ti en la
@@ -1302,6 +1302,119 @@
     <!--Finaliza "Testimonio"-->
 
     <!--INICIO SCRIPT-->
+
+    <section class="busqueda-avanzada-mobile">
+        <div class="content-busqueda-avanzada-toggle" onclick="myFunction()">
+            <div>
+                <p>Búsqueda avanzada</p>
+            </div>
+            <div>
+                <p>BOGOTÁ</p>
+            </div>
+        </div>
+        <div id="content-frm-busqueda-avanzada-mobile" class="content-desplegado mystyle">
+            <div class="content-block-1-busqueda-avanzada-mobile">
+                <div class="back-castillo">
+                    <div class="ordenar_img_texto content-img-frm-busqueda-mobile">
+                        <img src="../assets/images/Group 1212.png" alt="">
+                    </div>
+                    <select class="estilo_selector_bogota estilo-select-busqueda-avanzada" name="" id="">
+                        <option value="">
+                            Bogotá
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <div class="flex_column">
+                        <span class="text_selector_busqueda"> Selecciona sector </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                sector
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block-2-busqueda-avanzada-mobile">
+                <div class="ordenar-filas">
+                    <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Precio </span>
+                </div>
+                <div class="ordenar-filas">
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Desde </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                80.000 USD
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Hasta </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                250.000 USD
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <button data-moneda="0" type="button" class="--btn-rotate-card-section-two"
+                            onclick="cambiarImagenMoneda()">
+                            <img class="-component-1677-1" id="imageCurrency"
+                                src="../assets/images/Component 1678 – 1.svg" alt="">
+                        </button>
+                        <!-- <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block-3-busqueda-avanzada-mobile">
+                <div class="ordenar-filas">
+                    <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Area construida </span>
+                </div>
+                <div class="ordenar-filas">
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Desde </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                40m²
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <span class="texto_desde_hasta"> Hasta </span>
+                        <select class="estilo_select ancho" name="" id="">
+                            <option value="">
+                                120m²
+                            </option>
+                        </select>
+                    </div>
+                    <div class="flex_column">
+                        <button data-moneda="0" type="button" class="--btn-rotate-card-section-two"
+                            onclick="cambiarImagenMoneda()">
+                            <img class="-component-1677-1" id="imageCurrency"
+                                src="../assets/images/otro.svg" alt="">
+                        </button>
+                        <!-- <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor_btn_buscar_sticky">
+                    <button class="boton_buscar"><span class="letra_btn_buscar"> Buscar </span>
+                        <img class="mover_lupa" src="../assets/images/search.png" alt=""></button>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
 
 
     <script src="../js/page-proyectos.js"></script>
