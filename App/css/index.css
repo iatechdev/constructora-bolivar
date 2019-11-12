@@ -1548,7 +1548,7 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     color: #504741; font-size: 1.4vw; font-weight: 400; letter-spacing: 1.08px; 
 }
 .contariner-icons-content-apartaments-proyectos { 
-    width: 60%;
+    width: 50%;
     padding: 20px; 
     border-bottom: solid 1px #B9B3AD;
     display: flex; 
@@ -1558,7 +1558,7 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .for-margin-bot-content-proyectos { 
     margin-bottom: 40px;
@@ -1624,7 +1624,35 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     border-radius: 40px;
     box-shadow: 0px 5px 9px #0000001A;
 }
+.card-small-shared-social-network { 
+    width: 30%;
+    min-width: 30%;
+    padding: 20px ; 
+    background-color: white;
+    border-radius: 20px;
+    margin: 45% 10% 0 auto ;
+    box-shadow: 0px 5px 9px #0000001A;
 
+
+}
+.text-shared-card-small-shared {
+    color: #504741;
+    list-style-type: 1px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.padd-card-small-shared { 
+    padding: 0 7% !important;
+}
+.btn-download-follage-card-small-shared {
+    width: 100%; 
+    background-color: #008C44;
+    border-radius: 24px;
+    height: 5vh; 
+    color: white;
+    border: none;
+    margin-top: 25px;
+}
 body {
     overflow-x: hidden;
 }
@@ -1946,32 +1974,7 @@ body {
 .card__content__less__1000 {
     display: none;
 }
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-.tooltip .tiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 3px;
-    padding: 6px 0;
-    position: absolute;
-    z-index: 1;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-.tooltip .tiptext::after {
-    content: "";
-    position: absolute;
-    border-width: 5px;
-    border-style: solid;
-}
-.tooltip:hover .tiptext {
-    visibility: visible;
-}
+
 
 @media (max-width: 1000px) {
     #card__sala__ventas {
@@ -2585,10 +2588,8 @@ a.customdatademo span:before {
     background-color: #E8E2DE !important;
 }
 
-.ABstart__tab {
-    border-radius: 15% 0% 0% 0% !important;
+.nav-pills { 
 }
-
 .boton__descargar__folleto {
     margin-top: 6%;
     margin-left: 5%;
@@ -2863,3 +2864,43 @@ a.customdatademo span:before {
 
 
 
+.tooltip-orange {
+    position: relative;
+    display: inline-block;
+}
+.tooltip-orange .tiptext {
+    visibility: hidden;
+    width: 208px;
+    background-color: #FCDA5F;
+    color: #008C44;
+    text-align: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 13px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.tooltip-orange .tiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+}
+.tooltip-orange:hover .tiptext {
+    visibility: visible;
+}
+.tooltip-orange.topT .tiptext{
+    margin-left: -60px;
+    bottom: 150%;
+    left: 200%;
+}
+.tooltip-orange.topT .tiptext::after{
+    margin-left: 0px;
+    top: 100%;
+    left: 0%;
+    border-color: #FCDA5F transparent transparent #FCDA5F;
+}
