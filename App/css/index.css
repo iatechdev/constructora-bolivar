@@ -120,6 +120,9 @@ p { margin: 0 !important;}
 .-hr-border-right { border-right: solid 1px rgba(255, 255, 255, 1); padding-right: 10px;}
 .-subtext-card-back { font-size: 10px; color: white; text-align: center; padding-left: 15px;}
 .-pdd-left-small { padding-left: 10px !important;}
+.-pdd-left-mid { padding-left: 20px !important; }
+
+
 .-zona {
     font-weight: 400;
 }
@@ -1539,6 +1542,18 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
 .container__form {
     margin-top: 5%;
     margin-bottom: 10%;
+    padding-left: 5%;
+}
+.text-this-apartament-acount-interna-proyectos { 
+    color: #504741; font-size: 1.4vw; font-weight: 400; letter-spacing: 1.08px; 
+}
+.contariner-icons-content-apartaments-proyectos { 
+    width: 60%;
+    padding: 20px; 
+    border-bottom: solid 1px #B9B3AD;
+}
+.for-margin-bot-content-proyectos { 
+    margin-bottom: 40px;
 }
 
 .sala__ventas__container {
@@ -1547,6 +1562,7 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     padding-right: 0% !important;
 }
 .sala__ventas__card {
+    width: 80%;
     background: #FFFFFF 0% 0% no-repeat padding-box !important;
     box-shadow: 0px 5px 9px #0000001A !important;
     border-radius: 80px;
@@ -2117,8 +2133,7 @@ body {
 }
 
 .card-body {
-
-    padding: 1rem !important;
+    padding: 1rem 0 0 0.9rem !important;
     border-bottom-left-radius: 1.25rem !important;
     border-bottom-right-radius: 1.25rem !important;
 }
@@ -2140,7 +2155,10 @@ body {
     -moz-border-radius: 13px 13px 13px 13px;
     -webkit-border-radius: 13px 13px 13px 13px;
 }
-
+.content-100-sin-pdd {
+    width: 100%;
+    padding: 0 !important;
+}
 .icon__subsidio__proyectos {
     float: left;
     margin-top: -5%;
@@ -2328,6 +2346,7 @@ body {
     .form__responsive__sala {
         justify-content: center;
         margin-left: 16%;
+        padding-left: 5% !important;
     }
     .w__card_apartamentos {
         display: none !important;
@@ -2356,13 +2375,12 @@ body {
         margin-top: 10%;
     }
     .w__horarios__sala {
+        width: 100% !important;
         text-align: center;
         color: #FFFFFF;
         background: #008C44;
-        width: 130%;
-        height: 121%;
-        position: relative;
-        right: 20px;
+        
+      
         border-radius: 0% 0% 15% 15%;
     } 
     .card__home__responsive__actions {
@@ -2404,7 +2422,8 @@ body {
     color: #ffffff !important;
     border: 2px solid #ffffff !important;
     border-radius: 25px !important;
-    width: 100% !important;
+    width: 25% !important;
+    margin-top: 25px;
 }
 .flecha__dere__referir__refactor {
     width: 13%;
@@ -2450,10 +2469,10 @@ a.customdatademo span:before {
     text-align: center;
     color: #FFFFFF;
     background: #008C44;
-    width: 130%;
-    height: 121%;
-    position: relative;
-    right: 20px;
+    width: 98%;
+    height: 120%;
+    margin: 0 0 0 auto;
+
     border-radius: 0% 0% 15% 15%;
 }
 .w__card_apartamentos__responsive{
