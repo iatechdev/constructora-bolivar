@@ -175,8 +175,9 @@
 
 
         .content-ciudades-proyectos{
-            padding-left: 10px;
+            margin-left: 20px;
             border-bottom: 1px solid red;
+            padding: 20px 0px 10px 0px;
         }
 
   }
@@ -226,7 +227,7 @@
 
 .content-ciudades-proyectos{
     display: flex;
-    width: 100%;
+    width: 90%;
 }
 
 .content-ciudades-proyectos div:nth-child(2){
