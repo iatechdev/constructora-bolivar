@@ -1551,6 +1551,14 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     width: 60%;
     padding: 20px; 
     border-bottom: solid 1px #B9B3AD;
+    display: flex; 
+    flex-direction: column;
+}
+.row-container-icons-content-apartament-proyectos { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .for-margin-bot-content-proyectos { 
     margin-bottom: 40px;
@@ -1562,11 +1570,12 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     padding-right: 0% !important;
 }
 .sala__ventas__card {
-    width: 80%;
+    width:80%;
     background: #FFFFFF 0% 0% no-repeat padding-box !important;
     box-shadow: 0px 5px 9px #0000001A !important;
     border-radius: 80px;
 }
+
 .sala__text__container{
     background: #FFFFFF;
 }
@@ -1575,6 +1584,9 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     color: #FFFFFF;
     background: #008C44;
 
+}
+.class-images-for-tooltip-orange { 
+    width: 2.5vw;
 }
 
 .texto__apartamentos1{
@@ -1934,6 +1946,33 @@ body {
 .card__content__less__1000 {
     display: none;
 }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.tooltip .tiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+}
+.tooltip:hover .tiptext {
+    visibility: visible;
+}
+
 @media (max-width: 1000px) {
     #card__sala__ventas {
         display: none;
@@ -2136,6 +2175,7 @@ body {
     padding: 1rem 0 0 0.9rem !important;
     border-bottom-left-radius: 1.25rem !important;
     border-bottom-right-radius: 1.25rem !important;
+    width: 100%;
 }
 
 .home__container__proyectos {
@@ -2633,6 +2673,14 @@ a.customdatademo span:before {
         margin-top: -10% !important;
     }
 } 
+@media (max-width:767px){
+    .sala__ventas__card {
+    width:100%;
+    margin-top: 30px;
+  
+}
+}
+
 
 /* 
 @media (max-width: 1024px) {
