@@ -1713,6 +1713,12 @@ body {
 .comillas__dere {
     margin-top: 40%;
 }
+.paragraph-card-initial-content { 
+    padding: 30px  5px;
+    font-size: 24px;
+    color: #504741;
+    letter-spacing: 1.15px;
+}
 
 .sala__ventas__card_inf{
     margin-top: 3%;
@@ -2147,9 +2153,9 @@ body {
 }
 
 .image__home {
-    border-radius: 13px 13px 13px 13px;
-    -moz-border-radius: 13px 13px 13px 13px;
-    -webkit-border-radius: 13px 13px 13px 13px;
+    width: 100%;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
 }
 
 .text__home__proyectos {
@@ -2561,8 +2567,7 @@ a.customdatademo span:before {
     width: 13%;
     position: relative;
     left: 1px;
-    top: 67px;
-    margin: 5% 0% 0% 90%;
+    margin: 0 0 -15px 90%;
 }
 .card__body__text__home {
     margin: -6% 10%;
@@ -2587,8 +2592,7 @@ a.customdatademo span:before {
 
 .container__card__initial__content{
     width: 32vw;
-    height: 14vh;
-    padding: 4%;
+    padding: 0 4% ;
     border-radius: 1.25rem !important;
 }
 

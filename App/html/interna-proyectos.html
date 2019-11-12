@@ -195,13 +195,7 @@
 
     <!--Finaliza "Resultados de busqueda"-->
 
-
-
-
-
     <!-- RESPONSIVE HOME -->
-
-
 
     <!-- Home -->
 
@@ -217,6 +211,7 @@
                     <br>
                 </div>
                 <div class="col-6">
+                        
                 </div>
             </div>
             <div class="row">
@@ -290,7 +285,7 @@
 
     <div class="home__container__proyectos">
         <div class="row" style="padding-bottom: 10% !important; margin-right: 0px !important;">
-            <div class="col-4 text__home__proyectos">
+            <div class="col-5 text__home__proyectos">
                 <div class="row">
                     <div class="col-6">
                         <img class="proyecto__logo" src="../assets/images/Image53.png" alt="">
@@ -339,7 +334,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-8">
+            <div class="col-7">
                 <img class="image__home" src="../assets/images/Image49.png" alt="">
                 <div class="text__container__home">
                     <div class="card container__card__initial__content">
@@ -347,7 +342,7 @@
                         <div class="card__body__text__home container__card__initial__content__text">
                             <br>
                             <div class="ass">
-                                <p class="ass">
+                                <p class="paragraph-card-initial-content">
                                     <b>
                                         Encontrarás apartamentos para cada etapa de tu vida
                                     </b>
@@ -1579,25 +1574,37 @@
                     <div class="row row__items__iluminacion">
                         <ul class="nav nav-pills nav-fill navtops iluminacion__plano__proyectos">
                             <li class="nav-item item__iluminacion">
-                                <a class="nav-link link__iluminacion link__mac" href="" aria-selected="true"
+                                <a class="nav-link link__iluminacion link__mac" href="#macroproyecto" aria-selected="false"
                                     data-toggle="tab">Macroproyecto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link__iluminacion link__pro" href="" aria-selected="false"
+                                <a class="nav-link link__iluminacion link__pro" href="#proyectos" aria-selected="false"
                                     data-toggle="tab">Proyectos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link__iluminacion link__ilu active" href="" aria-selected="false"
+                                <a class="nav-link link__iluminacion link__ilu active" href="#iluminacion" aria-selected="true"
                                     data-toggle="tab">Iluminacion</a>
                             </li>
                         </ul>
+
+                        
                     </div>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                <div class=" tab-pane  fade show active Noactive" role="tabpanel" id="iluminacion">
+                                    <img class="img__plano__general" src="../assets/images/Image 55.png" alt="">
+                                    <!-- <div class="img__plano__general"></div> -->
+                                </div>
+                                <div class=" tab-pane " role="tabpanel" id="proyectos">
+                                    <span>Contenido de Proyectos </span>
+                                </div>
+                                <div class=" tab-pane   " role="tabpanel" id="macroproyecto">
+                                    <span>Contenido de Macroproyecto</span>
+                                </div>
+                    </div>
+
                 </div>
 
-                <div class="row">
-                    <img class="img__plano__general" src="../assets/images/Image 55.png" alt="">
-                    <!-- <div class="img__plano__general"></div> -->
-                </div>
+            
                 <div class="row">
                     <div class="col-12">
                         CONTROL DE ILUMINACIÓN
@@ -2445,7 +2452,7 @@
             console.log("ChangePrice");
             if (x.innerHTML === "$480,000,000") {
                 x.innerHTML = "$4.500";
-                y.src = "../assets/images/Group 1657.svg";
+                y.src = "../assets/images/Group 1685.svg";
             } else {
                 x.innerHTML = "$480,000,000";
                 y.src = "../assets/images/Group 576.png";
@@ -2457,10 +2464,10 @@
             var x = document.getElementById("areaConstruidaTextAB1");
             if (x.innerHTML === "120m<sup>2</sup>") {
                 x.innerHTML = "220p";
-                y.src = "../assets/images/Group 1657.svg";
+                y.src = "../assets/images/Group 1592@2x.png";
             } else {
                 x.innerHTML = "120m<sup>2</sup>";
-                y.src = "../assets/images/Group 1592@2x.png";
+                y.src = "../assets/images/Group 1660.svg";
             }
         }
 
@@ -2469,10 +2476,10 @@
             var x = document.getElementById("areaPrivadaTextAB1");
             if (x.innerHTML === "120m<sup>2</sup>") {
                 x.innerHTML = "220p";
-                y.src = "../assets/images/Group 1657.svg";
+                y.src = "../assets/images/Group 1592@2x.png";
             } else {
                 x.innerHTML = "120m<sup>2</sup>";
-                y.src = "../assets/images/Group 1592@2x.png";
+                y.src = "../assets/images/Group 1660.svg";
             }
         }
         function changePriceAB2() {
