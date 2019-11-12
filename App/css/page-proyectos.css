@@ -1,51 +1,240 @@
-/* .img_galeria_1{
+.content-galeria-imagenes img {
+  width: 85%;
+  height: 109px;
+  object-fit: cover;
+}
+
+.content-galeria-imagenes img:nth-child(1) {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.content-galeria-imagenes img:nth-child(3) {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.content-galeria-imagenes .img-select {
+  width: 100%;
+  height: 134px;
+}
+
+.img_sendero {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 350px;
+  cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
+  object-fit: cover;
+}
+
+.container-check-proyecto {
+  position: relative;
+  width: 53%;
+  height: 30px;
+  border: solid 2px #504741;
+  border-radius: 4px;
+  margin: 5px auto;
+}
+.--title-selects-section-two {
+  color: #504741;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.p-relative-span-section-two-apto {
+  position: absolute;
+  padding: 3px 0 0 5px;
+  z-index: 5;
+}
+
+.container-check-proyecto label{
+    position: absolute;
+    padding: 3px 0 0 5px;
+    /* z-index: 5; */
+}
+
+.container-check-proyecto label:nth-child(2){
+    right: 20%;
+}
+
+.fondo_ciudad{
+    background-image: url(../assets/images/Ellipse\ 210.png);
+    height: auto;
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px; 
-    height: 134px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
-} */
-/* .img_galeria_2{
-    width: 85%;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer; 
-
-} */
-/* .img_galeria_3{
-    width: 85%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px; 
-    cursor: url("../assets/images/iconmonstr-cursor-31.svg"), pointer;
-} */
-
-.content-galeria-imagenes img{
-    height: 134px;
-    width: 85%;
-    /* height: 500px; */
+    margin: 25px 0 0 0;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
-.content-galeria-imagenes img:nth-child(1){
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    /* height: 500px; */
+@media (max-width: 768px) {
+    .-card-flip > div {
+        position: relative;
+        transform: none;
+      }
+      .-card-body3{
+          width: 100%;
+      }
+      .proyecto-card-resultado-busqueda{
+          width: 100% !important;
+          height: auto;
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+      }
+      .proyecto-card-resultado-busqueda .-card-title{
+        display: none;
+      }
+
+      .proyecto-card-resultado-busqueda .-card-zona{
+        display: none;
+      }
+
+      .proyecto-card-resultado-busqueda .-p-card-end{
+        margin: 60px 0px 0px 0px;
+      }
+
+      .proyecto-card-resultado-busqueda .insignia-card{
+        order: 1;
+        margin-top: 8px;
+
+      }
+
+      .order-insignia-card{
+          order: 1;
+          margin-top: 8px;
+      }
+
+      .-content-info-card-back{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 67%;
+      }
+
+      .separador-ciudad{
+          padding-right: 3px;
+      }
+    
+      .separador{
+          display: none;
+      }
+
+      .-tarjetas{
+        flex-direction: column;
+      }
+
+      .-header-card-back{
+          height: auto;
+          align-items: center;
+          padding: 8px 30px;
+          border-radius: 0px;
+      }
+
+      .-card-flip{
+        margin-bottom: 30px;
+      }
+
+      .-row-card-back-left{
+          align-items: center;
+      }
+
+        .-row-card-back-left .-price-large{
+            font-size: 25px;
+        }
+
+        .-price-large-m{
+            font-size: 18px;
+        }
+
+        .-back-card-verde{
+            text-align: center;
+        }
+
+        .-btn-green-card-back{
+            width: 70%;
+        }
+
+        .-back-card-verde{
+            height: auto;
+        }
+
+        .-subtext-card-back{
+            font-size: 12px;
+            padding: 0px;
+        }
+        /* .img_pequeña_ciudad{
+            display: none;
+        } */
+
+        .contenedor_ciudad .letra .descripcion-ciudad{
+            display: none;
+        }
+        .titulo_ciudad{
+            font-size: 26px;
+        }
+
+
+        .content-ciudades-proyectos{
+            padding-left: 10px;
+            border-bottom: 1px solid red;
+        }
+
+  }
+
+
+  .-row-sub-card-back{
+    flex-wrap: wrap;
 }
 
-.content-galeria-imagenes img:nth-child(3){
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    /* height: 500px; */
-}
-
-.content-galeria-imagenes .img-select{
+.content-valor-metros{
+    display: flex;
     width: 100%;
-    height: 185px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
-.img_sendero{
+.content-desde-hasta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 350px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
+}
+
+.content-desde-hasta div{
+    width: 50%;
+    text-align: center;
+}
+
+.content-desde-hasta div:nth-child(1){
+    border-right: 1px solid red;
+}
+
+
+.content-valor-metros div:nth-child(1){
+    border-right: 1px solid red;
+}
+
+.content-valor-metros div{
+    width: 50%;
+    text-align: center;
+}
+
+.-subtext-card-back{
+    padding: 0px;
+}
+
+.content-ciudades-proyectos{
+    display: flex;
+    width: 100%;
+}
+
+.content-ciudades-proyectos div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-ciudades-proyectos div:nth-child(1){
+    width: 110px;
 }

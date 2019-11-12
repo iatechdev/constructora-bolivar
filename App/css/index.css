@@ -384,7 +384,7 @@ opacity: 1;
     height: 317px;
     
     border-radius: 15px;
-    background:  -webkit-gradient(linear, 0% 40%, 46% 100%, from(rgba(37, 37, 37, 0)), to(rgba(11, 11, 11, 0.81))), url(../assets/images/Image\ 4.png);
+    background:  -webkit-gradient(linear, 0% 40%, 46% 100%, from(rgba(37, 37, 37, 0)), to(rgba(11, 11, 11, 0.81))), url(../assets/images/Image4.png);
     position: relative;
     background-size: cover;
     background-position: center;
@@ -718,14 +718,14 @@ opacity: 1;
 
 /*Elige una ciudad*/
 
-.fondo_ciudad{
+/* .fondo_ciudad{
     background-image: url(../assets/images/Ellipse\ 210.png);
     height: 240px;
     width: 100%;
     margin: 25px 0 0 0;
     background-position: left;
     background-repeat: no-repeat;
-}
+} */
 .titulo_ciudad{
     color: #056232;
     font-family:'Roboto', sans-serif;
@@ -1339,7 +1339,6 @@ float: left;
    position: absolute;
     padding: 3px 0 0 5px;
    z-index: 5;
-  
   }
   .p-relative-span-section-two-house {
     position: absolute;
