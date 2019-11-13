@@ -405,13 +405,11 @@ opacity: 1;
 .-card-body1 {
     width: 236px;
     height: 317px;
-    
     border-radius: 15px;
-    background:  -webkit-gradient(linear, 0% 40%, 46% 100%, from(rgba(37, 37, 37, 0)), to(rgba(11, 11, 11, 0.81))), url(../assets/images/Image\ 4.png);
+    background:  -webkit-gradient(linear, 0% 40%, 46% 100%, from(rgba(37, 37, 37, 0)), to(rgba(11, 11, 11, 0.81))), url(../assets/images/Image4.png);
     position: relative;
     background-size: cover;
     background-position: center;
-
 }
 .insignia-card { 
   
@@ -744,14 +742,14 @@ opacity: 1;
 
 /*Elige una ciudad*/
 
-.fondo_ciudad{
+/* .fondo_ciudad{
     background-image: url(../assets/images/Ellipse\ 210.png);
     height: 240px;
     width: 100%;
     margin: 25px 0 0 0;
     background-position: left;
     background-repeat: no-repeat;
-}
+} */
 .titulo_ciudad{
     color: #056232;
     font-family:'Roboto', sans-serif;
@@ -818,7 +816,10 @@ opacity: 1;
     width: 100%;
     padding: 0 !important;
 }
-
+.container-filter-search {width: 100%; height: auto; background-color: #E8E3E1;  display: flex; }
+.content-left-filter-search {width: 30%; height: 96.5%; background-color: #DED6CF;}
+.content-mid-filter-search{ width: 40%;height: 96.5%; padding:25px; background-color: #D8CDC4; border-left: solid 7px #C5BAB1; border-right:solid 7px #C5BAB1; position: relative;}
+.content-right-filter-search {width: 30%; height: 96.5%;  background-color: #C3BBB4;}
 /*Finaliza busqueda avanzada*/
 /*Comienza sendero*/
 
@@ -827,34 +828,8 @@ opacity: 1;
     padding-top: 5%;
     background:#F9F5F3;
 }
-.img_sendero{
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 350px;
-    cursor: url("../assets/images/iconmonstr-cursor-31-1.png"), pointer;
-    
-}
-.img_sendero_pequeña{
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 123px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
-}
-.img_parque_pequeña{    
-    width: 85%;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
 
-}
-.img_gimnasio_pequeño{
-    width: 85%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.svg"), pointer;
 
-}
 .titulo_ilarco{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -1028,11 +1003,221 @@ float: left;
 }
 
 
-/* ESTILOS CARLOS */
-/* ESTILOS CARLOS */
-/* ESTILOS CARLOS */
-/* ESTILOS CARLOS */
-/* ESTILOS CARLOS */
+/* INICIO ESTILOS DE LOS CHECKBOX*/
+.toggle {
+    
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+  }
+  .toggle:before {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: white;
+    transition: background 0.2s ease;
+  }
+  .toggle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background:#FCDA5F;
+    box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+    transition: all 0.2s ease;
+  }
+  .toggle span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: -18px;
+    width: 56px;
+    height: 56px;
+    background: #FCDA5F;
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 1;
+    pointer-events: none;
+  }
+  
+  /* INICIA CHECKBOX TIPO VIVIENDA*/
+  #cbx:checked + .toggle:before {
+    background: white;
+     
+
+  }
+  #cbx:checked + .toggle span {
+  
+
+    background: #FCDA5F;
+    transform: translateX(100%);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  #cbx:checked + .toggle span:before {
+    transform: scale(3);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  /*FINALIZA CHECKBOX TIPO VIVIENDA*/
+
+    /* INICIA CHECKBOX TIPO VIVIENDA MOBILE*/
+    #btn_rotate_subsidio_mobile:checked + .toggle:before {
+        background: white;
+         
+    
+      }
+      #btn_rotate_subsidio_mobile:checked + .toggle span {
+      
+    
+        background: #FCDA5F;
+        transform: translateX(100%);
+        transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+        box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+      }
+      #btn_rotate_subsidio_mobile:checked + .toggle span:before {
+        transform: scale(3);
+        opacity: 0;
+        transition: all 0.4s ease;
+      }
+      /*FINALIZA CHECKBOX TIPO VIVIENDA MOBILE*/
+  
+/* INICIA CHECKBOX SUBSIDIO VIVIENDA*/
+#btn_rotate_type:checked + .toggle:before {
+    background: white;
+     
+
+  }
+  #btn_rotate_type:checked + .toggle span {
+  
+
+    background: #FCDA5F;
+    transform: translateX(100%);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  #btn_rotate_type:checked + .toggle span:before {
+    transform: scale(3);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  /*FINALIZA CHECKBOX SUBSIDO VIVIENDA*/
+
+  /* INICIA CHECKBOX SUBSIDIO VIVIENDA MOBILE */
+#btn_rotate_type_mobile:checked + .toggle:before {
+    background: white;
+     
+
+  }
+  #btn_rotate_type_mobile:checked + .toggle span {
+  
+
+    background: #FCDA5F;
+    transform: translateX(100%);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  #btn_rotate_type_mobile:checked + .toggle span:before {
+    transform: scale(3);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  /*FINALIZA CHECKBOX SUBSIDO VIVIENDA MOBILE */
+
+
+  .p-relative-span-section-two-apto  {
+   position: absolute;
+    padding: 3px 0 0 5px;
+   z-index: 5;
+  }
+  .p-relative-span-section-two-house {
+    position: absolute;
+     padding: 3px 0 0 10%;
+    z-index: 5;
+   
+   }
+ .--padd-left-small-no{
+    padding: 3px 0 0 20px ; 
+ }
+ .--padd-left-small-yes{
+    padding: 3px 0 0 11% ; 
+ }
+ label { 
+     cursor: pointer !important;
+ }
+ .--c-marron-i {  color: #504741 !important;}
+/* FINALIZA ESTILOS DE LOS CHECKBOX*/
+
+.view_mobile_home { display: none;}
+     @media screen and (max-width: 768px) 
+    /* ESTILOS VISTA MOBILE DEL HOME */
+    {
+        .view_desktop_home{display: none;}
+        .view_mobile_home { display: initial;}
+        .--section_one_view_mobile_home { width: 100%; height: auto; padding: 35px 30px; background-color: #F9F5F3;}
+        .--section_two_view_mobile_home { width: 100%; height: auto; padding: 35px 30px; background-color: white; }
+        .--section_three_view_mobile_home {width: 100%; height: auto; padding: 0px; background-color: #F9F5F3; }
+        .--title_section_two_mobile { font-size: 7vw; letter-spacing: 2px;  color: #008C44; font-weight: 400;}
+        .--row_section_two_mobile { width: 100%; display: flex; flex-direction: column;}
+        .--title_selects_section_one_mobile { color:#504741 ; font-weight: 700; font-size: 4vw;margin-top: 5px;}
+        .--style_selects_section_two_mobile {  width: 90%;
+             background-color: transparent; border: none; border-bottom: solid 1px #FCDA5F;
+              color:#A09995; font-size: 14px; background: url(../assets/images/arrow-bot-marron.svg) no-repeat right;
+        }
+        .--row_grid_section_one_mobile { width: 100%; display: grid; grid-template-columns: repeat(2, 40%) 20%;}
+        .--title_btn_rotate_mobile  { font-size: 3vw; color: #504741; font-weight: 700; }
+         .p-relative-span-section-two-apto-mobile  {
+            position: absolute;
+             padding: 3px 0 0 5px;
+            z-index: 5;
+           
+           }
+           .p-relative-span-section-two-house-mobile {
+             position: absolute;
+              padding: 3px 0 0 20%;
+             z-index: 5;
+            
+            }
+            .image_banner_section_three_100 { width: 100%; height: 38vh; background-image: url(../assets/images/AdobeStock_181205632.png); background-size: cover;background-position-y: center; background-position-x: center;}
+            .--size-mid-vw {font-size: 5vw !important; }
+.--container-btn-rotate-mobile { width: 90%;  height: 30px; border: solid 2px #504741; border-radius: 4px; margin: 5px auto; }
+    .--btn_green_search_mobile { padding: 0 20px; width: 100%; height: 35px; background-color: #008C44; border-radius:  4px; border: none; color: white;}
+    .--f_right_icon_search { float: right;}
+    .--text_pasa_voz_section_three_mobile { padding: 30px; font-size: 9vw; color: white;}
+    .--paragraph-pdd-box { 
+        padding: 50px; color: #504741; letter-spacing: 1px;
+    }
+.-w-100-- { width: 100%; }
+.--mg-auto-- { margin: 0 40%; padding: 25px 0 !important; }
+
+
+
+
+    }
+  
+
+.--text_pasa_voz_section_three_mobile { }
+
+    @media screen and (max-width: 410px) {
+        .p-relative-span-section-two-house-mobile {
+            position: absolute;
+             padding: 3px 0 0 17%;
+            z-index: 5;
+           
+           }
+    }
+
+/*finaliza testimonio*/
+/*  SALAS VENTA  */
 .body__sala__ventas {
     background-color: #F9F5F3 !important;
 }
