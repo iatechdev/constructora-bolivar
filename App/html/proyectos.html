@@ -123,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-mid-filter-search">
+            <div class="content-mid-filter-search" id="more-filters-interna-proyectos">
                 <div class="organizar_filas">
                     <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Precio </span>
                 </div>
@@ -153,11 +153,83 @@
                         <!-- <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt=""> -->
                     </div>
                     <div class="flex_column">
-                        <button class="btn_otros_filtros"><img style="padding: 2px"
-                                src="../assets/images/Group 1512.png" alt=""> Otros
-                            filtros</button>
+                        <button class="btn_otros_filtros" onclick="dropDownMoreFilters()"><img style="padding: 2px"
+                                src="../assets/images/Group 1512.png" alt=""> <span id="textBottonDropDownMoreFiltersHtml"> </span>
+                            </button>
                     </div>
                 </div>
+                <div class="section-drop-down-more-filters pdd-top-drop-down-more-filters" id="section-drop-down-more-filters">
+                    <div class="organizar_filas">
+                        <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Área construida </span>
+                    </div>
+                        <div class="organizar_filas">
+                            <div class="flex_column">
+                                    <span class="texto_desde_hasta"> Desde </span>
+                                    <select class="estilo_select ancho" name="" id="">
+                                        <option value="">
+                                            40m&#178;
+                                        </option>
+                                    </select>
+                            </div>
+                            <div class="flex_column">
+                                <span class="texto_desde_hasta"> Hasta </span>
+                                <select class="estilo_select ancho" name="" id="">
+                                    <option value="">
+                                        120m&#178;
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="flex_column">
+                                <button data-moneda="0" type="button" class="--btn-rotate-card-section-two" onclick="rotateLongitudBtnMoreFilters()">
+                                    <img class="-component-1677-1" id="imageLongitudBtnMoreFilters" src="../assets/images/Group 1471.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    <div class="organizar_filas -mg-top-25">
+                        <div class="flex_column">
+                        <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Subsidio vivienda</span>
+                                <div class="d-flex content-text-labels-in-inputs-radios">
+                                        <label for="radio-subsidio" class="titulo_mapa_lista_precio">No</label>
+                                        <label  for="radio-subsidioo" class="titulo_mapa_lista_precio">Si</label>
+                                </div>
+                            <div class="container-marron-checkbox-vivienda-page-proyectos">
+                                    <label class="content-input">
+                                        <input type="radio" name="Subsidio" id="radio-subsidio" value="No" >
+                                        <i></i>
+                                    </label>
+                                    <div class="span-grid-mid-inter-input-radio-orange">  </div>
+                                    <label class="content-input">
+                                        <input type="radio" name="Subsidio" id="radio-subsidioo" value="No" checked>
+                                        <i></i>
+                                    </label>
+
+                            </div>
+                        </div>
+                        <div class="flex_column">
+                        <span class="titulo_mapa_lista_precio --pdd-left-card-section-two"> Tipo vivienda </span>
+                                <div class="d-flex content-text-labels-in-inputs-radios">
+                                    <label for="radio-tipo" class="titulo_mapa_lista_precio">Apto</label>
+                                    <label for="radio-tipoo" class="titulo_mapa_lista_precio">Casa</label>
+                                </div>
+                        <div class="container-marron-checkbox-vivienda-page-proyectos">
+                                        <label class="content-input">
+                                            <input type="radio" name="tipo" id="radio-tipo" value="Apartamento" checked>
+                                            <i></i>
+                                        </label>
+                                        <div class="span-grid-mid-inter-input-radio-orange"> </div>
+                                        <label class="content-input">
+                                            <input type="radio" name="tipo" id="radio-tipoo" value="casa" >
+                                            <i></i>
+                                        </label>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+
+              
+
+
             </div>
             <div class="content-right-filter-search">
                 <div class="contenedor_btn_buscar">
@@ -186,7 +258,7 @@
     <!--Finaliza "Busqueda avanzada"-->
 
     <!--Comienza "Sendero ecologico"-->
-    <section class="container-fluid">
+    <section class="container-fluid container-sendero-ecologicosin-padd">
         <div class="d-none d-lg-block">
             <div class="col-12 row fondo_sendero">
                 <div class="col-4">
@@ -315,7 +387,7 @@
         </div>
         <div class="row">
             <!--Inicio Primera Card-->
-            <div class="col-md-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
                         <div class="-card-body1 proyecto-card-resultado-busqueda">
@@ -392,7 +464,7 @@
             <!--Fin Primera Card-->
 
             <!--Inicio Segunda Card-->
-            <div class="col-md-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
                         <div class="-card-body2 proyecto-card-resultado-busqueda">
@@ -469,7 +541,7 @@
             <!--Fin Segunda Card-->
 
             <!--Inicio Tercera Card-->
-            <div class="col-md-3 -tarjetas">
+            <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
                         <div class="-card-body3 proyecto-card-resultado-busqueda">
@@ -546,7 +618,7 @@
             <!--Fin tercera Card-->
 
             <!--Inicio Cuarta Card-->
-            <div class="col-md-3 -tarjetas">
+            <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
                         <div class="-card-body4 proyecto-card-resultado-busqueda">
@@ -629,7 +701,7 @@
 
         <div class="row">
             <!--Inicio Quinta Card-->
-            <div class="col-md-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
                         <div class="-card-body1 proyecto-card-resultado-busqueda">
@@ -706,7 +778,7 @@
             <!--Fin quinta Card-->
 
             <!--Inicio sexta Card-->
-            <div class="col-md-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
                         <div class="-card-body2 proyecto-card-resultado-busqueda">
@@ -783,7 +855,7 @@
             <!--Fin sexta Card-->
 
             <!--Inicio septima Card-->
-            <div class="col-md-3 -tarjetas">
+            <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
                         <div class="-card-body3 proyecto-card-resultado-busqueda">
@@ -860,7 +932,7 @@
             <!--Fin septima Card-->
 
             <!--Inicio octava Card-->
-            <div class="col-md-3 -tarjetas">
+            <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
                         <div class="-card-body4 proyecto-card-resultado-busqueda">

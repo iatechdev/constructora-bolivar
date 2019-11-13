@@ -354,3 +354,7 @@
 .mystyle{
     display: none;
 }
+.container-sendero-ecologicosin-padd { 
+    padding: 0 !important;
+}
+.row { margin: 0 !important}
