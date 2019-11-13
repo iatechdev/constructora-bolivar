@@ -39,7 +39,7 @@ p { margin: 0 !important;}
     padding:5px;
 }
 
-
+.size-icon-in-content-card-small { width: 50%;}
 
 .-bogota {
     font-weight: bold;
@@ -1545,10 +1545,10 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
     padding-left: 5%;
 }
 .text-this-apartament-acount-interna-proyectos { 
-    color: #504741; font-size: 1.4vw; font-weight: 400; letter-spacing: 1.08px; 
+    color: #504741; font-size: 3vh; font-weight: 400; letter-spacing: 1.08px; padding-left: 30px; 
 }
 .contariner-icons-content-apartaments-proyectos { 
-    width: 50%;
+    width: 70%;
     padding: 20px; 
     border-bottom: solid 1px #B9B3AD;
     display: flex; 
@@ -1585,7 +1585,8 @@ select{ appearance:none !important; -webkit-appearance: none; -moz-appearance: n
 
 }
 .class-images-for-tooltip-orange { 
-    width: 2.5vw;
+    width: 5vh;
+    margin: 10px;
 }
 
 .texto__apartamentos1{
@@ -2102,6 +2103,7 @@ body {
         padding: 27px 0 0px 20px !important;
         
     }
+
     .boletin__resposive__input{
         padding: 27px 0 0px 0px !important;
         
@@ -2127,6 +2129,16 @@ body {
         padding: 5px 8px 0 0;
     
     }
+     .--style-inputs-section-two  { 
+            width: 80vw ;
+     }
+     .--style-selects-section-two { 
+        width: 80vw;
+     }
+     .comentario__text__area {
+         width: 80vw !important;
+     }
+     .btn__voz__refactor{width: 70% !important;}
 }
 
 @media (min-width: 500px) and (max-width: 766px) {
@@ -2150,6 +2162,8 @@ body {
         padding: 5px 8px 0 0;
     
     }
+       
+    
 }
 
 @media (max-width: 500px) {
@@ -2483,7 +2497,7 @@ body {
     color: #ffffff !important;
     border: 2px solid #ffffff !important;
     border-radius: 25px !important;
-    width: 25% !important;
+    width: 25% ;
     margin-top: 25px;
 }
 .flecha__dere__referir__refactor {
@@ -2591,7 +2605,8 @@ a.customdatademo span:before {
 @media (max-width: 720px){
     .form__responsive__sala {
         margin-left: 0 !important;
-        padding-left: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 0 !important;
     }
 }
 
@@ -2714,9 +2729,12 @@ a.customdatademo span:before {
 .col-xl-5,.col-xl-6 { padding:  0 !important;}
 .image-background-container-left-section-two-pages-interna-proyectos { border-radius: 0px !important;}
 .container-left-section-two-pages-interna-proyectos { margin-bottom: 0;}
-.card-small-shared-social-network { margin-top: 0 !important; width: 100%; border-radius: 0 !important;}
+.card-small-shared-social-network { margin-top: 0 !important; width: 100%; border-radius: 0 !important; margin-bottom: 25px;}
 .row-container-icons-content-apartament-proyectos { display: flex; flex-direction: row; align-items: center; justify-content: space-around;}
-.btn-download-follage-card-small-shared { width: 50%;}
+.btn-download-follage-card-small-shared { width: 50%; margin-top: 0;}
+.text-shared-card-small-shared { display: none;}
+.contariner-icons-content-apartaments-proyectos  { width: 100%;}
+  
 }
 
 /* 
@@ -2932,8 +2950,8 @@ a.customdatademo span:before {
 }
 .tooltip-orange.topT .tiptext{
     margin-left: -60px;
-    bottom: 150%;
-    left: 200%;
+    bottom: 100%;
+    left: 150%;
 }
 .tooltip-orange.topT .tiptext::after{
     margin-left: 0px;
