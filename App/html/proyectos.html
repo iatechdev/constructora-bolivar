@@ -152,6 +152,7 @@
                         </button>
                         <!-- <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt=""> -->
                     </div>
+
                     <div class="flex_column">
                         <button class="btn_otros_filtros" onclick="dropDownMoreFilters()"><img style="padding: 2px"
                                 src="../assets/images/Group 1512.png" alt=""> <span id="textBottonDropDownMoreFiltersHtml"> </span>
@@ -239,14 +240,14 @@
                 <hr class="separador_btn_mapa_lista">
                 <!-- <div class="contenedor_mapa_lista"> -->
                 <div class="container-check-proyecto">
-                    <label for="cbx" class="p-relative-span-section-two-apto ">
+                    <label onclick="checked()" for="cbx" class="p-relative-span-section-two-apto ">
                         Mapa
                     </label>
-                    <label for="cbx" class="p-relative-span-section-two-house ">
+                    <label onclick="checked()" for="cbx" class="p-relative-span-section-two-house ">
                         Lista
                     </label>
                     <input type="checkbox" id="cbx" style="display:none" />
-                    <label for="cbx" class="toggle">
+                    <label onclick="checked()" for="cbx" class="toggle">
                         <span></span>
                     </label>
                 </div>
@@ -385,12 +386,21 @@
             <h3 class="titulo-resultado-busqueda-encontrados"><span class="ocho"> 8 </span> / 15 Proyectos encontrados:
             </h3>
         </div>
-        <div class="row">
+
+        <div id="lista-resultado" class="row d-none">
             <!--Inicio Primera Card-->
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body1 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/Image4.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
@@ -467,9 +477,16 @@
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body2 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
-
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
                                 <h3 class="-card-zona">Chicó</h3>
                                 <span class="insignia-card">LANZAMIENTO</span>
@@ -544,7 +561,15 @@
             <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body3 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Cali / Norte</h3>
@@ -621,7 +646,15 @@
             <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body4 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/alto-living-foto-ago-2-2019@2x.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Barranquilla / Zona norte</h3>
@@ -694,8 +727,6 @@
                 </div>
             </div>
             <!--Fin Cuarta Card-->
-        </div>
-        <div class="espacio_entre_card_proyectos">
 
         </div>
 
@@ -704,7 +735,15 @@
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body1 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/Image4.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
@@ -775,15 +814,22 @@
                     </div>
                 </div>
             </div>
-            <!--Fin quinta Card-->
+            <!--Fin Primera Card-->
 
             <!--Inicio sexta Card-->
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="card -card-flip ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body2 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
-
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
                                 <h3 class="-card-zona">Chicó</h3>
                                 <span class="insignia-card">LANZAMIENTO</span>
@@ -852,13 +898,21 @@
                     </div>
                 </div>
             </div>
-            <!--Fin sexta Card-->
+            <!--Fin Segunda Card-->
 
             <!--Inicio septima Card-->
             <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body3 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Cali / Norte</h3>
@@ -929,13 +983,21 @@
                     </div>
                 </div>
             </div>
-            <!--Fin septima Card-->
+            <!--Fin tercera Card-->
 
             <!--Inicio octava Card-->
             <div class="col-sm-12 col-md-6 col-lg-3 -tarjetas">
                 <div class="card -card-flip -h-100">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body4 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/alto-living-foto-ago-2-2019@2x.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Barranquilla / Zona norte</h3>
@@ -951,9 +1013,10 @@
                             <div class="-header-card-back">
                                 <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
                                 <div class="-content-info-card-back">
-                                    <span class=" -font-size-12-i"> Bogotá</span>
-                                    <span class="-chico -font-size-12-i"> Zona norte</span>
-                                    <span class="-chico -font-size-12-i">/ Chicó</span>
+                                    <span class=" -font-size-12-i"> Bogotá <span class="separador-ciudad"> / </span>
+                                    </span>
+                                    <span class="-chico -font-size-12-i">Zona norte</span>
+                                    <span class="-chico -font-size-12-i"><span class="separador">/</span>Chicó</span>
                                 </div>
                             </div>
 
@@ -1006,16 +1069,27 @@
                     </div>
                 </div>
             </div>
-            <!--Fin octava Card-->
+            <!--Fin Cuarta Card-->
+
+
+            <div class="-centrar-boton-proyectos page-btn-proyectos">
+                    <!--al final de la cuarta card-->
+                    <button type="button" class="-btn-conocer-proyectos"><span>Cargar más proyectos</span><img
+                            src="../assets/images/right-arrow(3).png" class="image-arrow-right" alt=""></button>
+                </div>
+
+
         </div>
-        <div class="-centrar-boton-proyectos">
-            <!--al final de la cuarta card-->
-            <button type="button" class="-btn-conocer-proyectos"><span>Cargar más proyectos</span><img
-                    src="../assets/images/right-arrow(3).png" class="image-arrow-right" alt=""></button>
-        </div>
+
+
+
         <!--antes del cierre del section de proyectos-->
     </section>
     <!--Finaliza Proyectos-->
+
+    <section id="mapa-busqueda" class="mapa d-none">
+        <img class="tamano-mapa" src="../assets/images/Image_mapa86@2x.png" alt="">
+    </section>
 
     <!--Finaliza "Resultados de busqueda"-->
 
@@ -1025,11 +1099,19 @@
             <h3 class="titulo-otros-proyectos">OTROS PROYECTOS QUE TE PUEDEN INTERESAR</h3>
         </div>
         <div class="row">
-            <!--Inicio Primera Card Otros Proyectos-->
-            <div class="col-md-3">
-                <div class="card -card-flip ">
+            <!--Inicio Primera Card-->
+            <div class="col-md-6 col-lg-3 col-xl-3 pd-tarjetas-proyectos">
+                <div class="card -card-flip ancho-card-proyectos ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body1 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/Image4.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
@@ -1100,15 +1182,22 @@
                     </div>
                 </div>
             </div>
-            <!--Fin Primera Card Otros Proyectos-->
+            <!--Fin Primera Card-->
 
-            <!--Inicio Segunda Card Otros Proyectos-->
-            <div class="col-md-3">
-                <div class="card -card-flip ">
+            <!--Inicio Segunda Card-->
+            <div class="col-md-6 col-lg-3  col-xl-3 pd-tarjetas-proyectos">
+                <div class="card -card-flip ancho-card-proyectos ">
                     <div class="-card-front -text-white">
-                        <div class="-card-body2 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
-
                                 <h3 class="-card-title">Bogotá / Zona norte</h3>
                                 <h3 class="-card-zona">Chicó</h3>
                                 <span class="insignia-card">LANZAMIENTO</span>
@@ -1177,13 +1266,21 @@
                     </div>
                 </div>
             </div>
-            <!--Fin Segunda Card Otros Proyectos-->
+            <!--Fin Segunda Card-->
 
-            <!--Inicio Tercera Card Otros Proyectos-->
-            <div class="col-md-3 -tarjetas">
-                <div class="card -card-flip -h-100">
+            <!--Inicio Tercera Card-->
+            <div class="col-md-6 col-lg-3 -tarjetas col-xl-3 pd-tarjetas-proyectos">
+                <div class="card -card-flip -h-100 ancho-card-proyectos ">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body3 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/ilarco_114-img1.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Cali / Norte</h3>
@@ -1254,13 +1351,21 @@
                     </div>
                 </div>
             </div>
-            <!--Fin tercera Card Otros Proyectos-->
+            <!--Fin tercera Card-->
 
-            <!--Inicio Cuarta Card Otros Proyectos-->
-            <div class="col-md-3 -tarjetas">
-                <div class="card -card-flip -h-100">
+            <!--Inicio Cuarta Card-->
+            <div class="col-md-6 col-lg-3  -tarjetas col-xl-3 pd-tarjetas-proyectos">
+                <div class="card -card-flip -h-100 ancho-card-proyectos ">
                     <div class="-card-front -text-white -bg-dark">
-                        <div class="-card-body4 proyecto-card-resultado-busqueda">
+                        <div style="background:-webkit-gradient(
+                            linear,
+                            0% 40%,
+                            46% 100%,
+                            from(rgba(37, 37, 37, 0)),
+                            to(rgba(11, 11, 11, 0.81))
+                          ),
+                          url(../assets/images/alto-living-foto-ago-2-2019@2x.png);"
+                            class="proyecto-card-resultado-busqueda tamano_tarjetas_proyectos">
                             <div class="-p-card-end">
 
                                 <h3 class="-card-title">Barranquilla / Zona norte</h3>
@@ -1276,11 +1381,10 @@
                             <div class="-header-card-back">
                                 <img src="../assets/images/park-living-logo.png" width="64" height="40" alt="">
                                 <div class="-content-info-card-back">
-                                    <span class=" -font-size-12-i"> Bogotá <span class="separador-ciudad">/</span>
+                                    <span class=" -font-size-12-i"> Bogotá <span class="separador-ciudad"> / </span>
                                     </span>
-                                    <span class="-chico -font-size-12-i"> Zona norte</span>
-                                    <span class="-chico -font-size-12-i"> <span class="separador"> / </span>
-                                        Chicó</span>
+                                    <span class="-chico -font-size-12-i">Zona norte</span>
+                                    <span class="-chico -font-size-12-i"><span class="separador">/</span>Chicó</span>
                                 </div>
                             </div>
 
@@ -1333,7 +1437,7 @@
                     </div>
                 </div>
             </div>
-            <!--Fin Cuarta Card Otros Proyectos-->
+            <!--Fin Cuarta Card-->
         </div>
         <!--antes del cierre del section de proyectos-->
     </section>
@@ -1464,8 +1568,7 @@
                     <div class="flex_column">
                         <button data-moneda="0" type="button" class="--btn-rotate-card-section-two"
                             onclick="cambiarImagenMoneda()">
-                            <img class="-component-1677-1" id="imageCurrency"
-                                src="../assets/images/otro.svg" alt="">
+                            <img class="-component-1677-1" id="imageCurrency" src="../assets/images/otro.svg" alt="">
                         </button>
                         <!-- <img src="../assets/images/Component 1677 – 1.png" class="--image-cop-card-section-two" alt=""> -->
                     </div>
@@ -1473,8 +1576,8 @@
             </div>
 
             <div class="contenedor_btn_buscar_sticky">
-                    <button class="boton_buscar"><span class="letra_btn_buscar"> Buscar </span>
-                        <img class="mover_lupa" src="../assets/images/search.png" alt=""></button>
+                <button class="boton_buscar"><span class="letra_btn_buscar"> Buscar </span>
+                    <img class="mover_lupa" src="../assets/images/search.png" alt=""></button>
             </div>
 
 

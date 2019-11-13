@@ -14,6 +14,27 @@
   var menuLink = primer_elemento_galeria[0];
   console.log(menuLink);
   primer_elemento_galeria[0].className += " img-select";
+
+
+
+    // Get the checkbox
+    let checkBox = document.getElementById("cbx");
+    let mapaElement = document.getElementById("mapa-busqueda");
+    let listaResultado = document.getElementById("lista-resultado");
+  
+    
+  
+    // If the checkbox is checked, display the output text
+    if (checkBox.checked == true){
+      mapaElement.classList.remove("d-none");
+      listaResultado.classList.add("d-none");
+    } else {
+      mapaElement.classList.add("d-none");
+      listaResultado.classList.remove("d-none");
+    }
+
+
+
 })();
 
 function cambiarImagen(srcImage) {
@@ -82,3 +103,25 @@ function dropDownMoreFilters(){
 }
 
  
+function mostrarMasFiltros() {
+  var element = document.getElementById("masFiltros");
+  element.classList.toggle("mystyle");
+}
+
+function checked() {
+  // Get the checkbox
+  let checkBox = document.getElementById("cbx");
+  var mapaElement = document.getElementById("mapa-busqueda");
+  var listaResultado = document.getElementById("lista-resultado");
+
+  
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    mapaElement.classList.remove("d-none");
+    listaResultado.classList.add("d-none");
+  } else {
+    mapaElement.classList.add("d-none");
+    listaResultado.classList.remove("d-none");
+  }
+}
