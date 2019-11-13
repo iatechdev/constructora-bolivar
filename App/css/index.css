@@ -382,13 +382,11 @@ opacity: 1;
 .-card-body1 {
     width: 236px;
     height: 317px;
-    
     border-radius: 15px;
     background:  -webkit-gradient(linear, 0% 40%, 46% 100%, from(rgba(37, 37, 37, 0)), to(rgba(11, 11, 11, 0.81))), url(../assets/images/Image4.png);
     position: relative;
     background-size: cover;
     background-position: center;
-
 }
 .insignia-card { 
   
@@ -945,9 +943,9 @@ opacity: 1;
     width: 100%;
     padding: 0 !important;
 }
-.container-filter-search {width: 100%; height: 9vw; background-color: #E8E3E1;  display: flex; }
+.container-filter-search {width: 100%; height: auto; background-color: #E8E3E1;  display: flex; }
 .content-left-filter-search {width: 30%; height: 96.5%; background-color: #DED6CF;}
-.content-mid-filter-search{ width: 40%;height: 96.5%; padding:25px; background-color: #D8CDC4; border-left: solid 7px #C5BAB1; border-right:solid 7px #C5BAB1 ;}
+.content-mid-filter-search{ width: 40%;height: 96.5%; padding:25px; background-color: #D8CDC4; border-left: solid 7px #C5BAB1; border-right:solid 7px #C5BAB1; position: relative;}
 .content-right-filter-search {width: 30%; height: 96.5%;  background-color: #C3BBB4;}
 /*Finaliza busqueda avanzada*/
 /*Comienza sendero*/
