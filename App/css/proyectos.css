@@ -977,6 +977,7 @@ opacity: 1;
     z-index: 5;
     margin-top: 15px;
     margin-bottom: -22px;
+    
 }
 .content-input input + i{
        background:#F8F6F4;
@@ -2722,7 +2723,7 @@ button:focus {outline:0 !important;}
 
   }
 
-
+.dsp-none { display: none !important;}
 
 
 

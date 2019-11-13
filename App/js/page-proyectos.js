@@ -79,6 +79,15 @@ function dropDownMoreFilters(){
     //------------------------------------------------
           var removeClassSectionDropDownMoreFilters = document.getElementById("section-drop-down-more-filters");
       removeClassSectionDropDownMoreFilters.classList.remove("pdd-top-drop-down-more-filters");
+    //------------------------------------------------
+    var removeClassDpsNoneNot= document.getElementById("label-btn-input-not");
+    removeClassDpsNoneNot.classList.remove("dsp-none")
+    var removeClassDpsNoneYes= document.getElementById("label-btn-input-yes");
+    removeClassDpsNoneYes.classList.remove("dsp-none")
+    var removeClassDpsNoneApto= document.getElementById("label-btn-input-apto");
+    removeClassDpsNoneApto.classList.remove("dsp-none")
+    var removeClassDpsNoneCasa= document.getElementById("label-btn-input-casa");
+    removeClassDpsNoneCasa.classList.remove("dsp-none")
 
     }else if (stateDropDownMoreFilters == "ON") { 
       var removeClassDropDownMoreFilters = document.getElementById("more-filters-interna-proyectos");
@@ -90,6 +99,15 @@ function dropDownMoreFilters(){
     //------------------------------------------------
           var aggClassSectionDropDownMoreFilters = document.getElementById("section-drop-down-more-filters");
                 aggClassSectionDropDownMoreFilters.classList.add("pdd-top-drop-down-more-filters") ;
+          //------------------------------------------------
+    var removeClassDpsNoneNot= document.getElementById("label-btn-input-not");
+    removeClassDpsNoneNot.classList.add("dsp-none")
+    var removeClassDpsNoneYes= document.getElementById("label-btn-input-yes");
+    removeClassDpsNoneYes.classList.add("dsp-none")
+    var removeClassDpsNoneApto= document.getElementById("label-btn-input-apto");
+    removeClassDpsNoneApto.classList.add("dsp-none")
+    var removeClassDpsNoneCasa= document.getElementById("label-btn-input-casa");
+    removeClassDpsNoneCasa.classList.add("dsp-none")
     }
 }
    function rotateLongitudBtnMoreFilters() {
@@ -101,6 +119,7 @@ function dropDownMoreFilters(){
       stateRotateLongitudBtnMoreFilters = "Metros"
     }
 }
+
 
  
 function mostrarMasFiltros() {
