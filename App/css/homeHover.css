@@ -712,7 +712,6 @@ opacity: 1;
     font-size: 16px;
     font-weight: 500;
     width: 326px;
-    height: 50px;
     background:none !important ;
     border: 2px solid rgba(3, 127, 67, 1);
     border-radius: 25px;
@@ -2635,13 +2634,8 @@ a.customdatademo span:before {
 
 
 
-@media (min-width: 359px) and (min-width: 361px) {
-    .comillas__izquierda__arriba {
-      
-    }    
-    .comillas__derecha__abajo {
-        
-    }
+@media (min-width: 359px) {
+.-btn-conocer-proyectos{ height: ;}
 }
 
 

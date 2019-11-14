@@ -136,13 +136,13 @@
             </div>
             <div class="container-p-right">
                     <div class="row-selects-right-hero-2">
-                                <div class="">
+                                <div class="d-block">
                                     <p class="title-selects-content-right-hero-2"> Selecciona una ciudad / municipio </p>
                                     <select class="style-selects-content-right-hero-2" name="city" id="">
                                             <option value="all"> Todas las ciudades </option>
                                     </select>
                                 </div>
-                                    <div class=""> 
+                                    <div class="d-block"> 
                                         <p class="title-selects-content-right-hero-2"> Selecciona un sector</p>
                                         <select class="style-selects-content-right-hero-2" name="city" id="">
                                             <option value="all"> Sector </option>
@@ -154,25 +154,26 @@
                             <div class="row-grid-card-white-hero-2">
                                 <span class="title-selects-content-right-hero-2">Precio</span>
                             </div>
+                          
                             <div class="row-grid-card-white-hero-2">
-                                <span>Desde</span>
-                                <span>Hasta</span>
-                                <span></span>
-                                <span>Tipo Vivienda</span>
-
-                            </div>
-                            <div class="row-grid-card-white-hero-2">
-                            
-                                <select class="style-selects-content-right-hero-2" name="city" id="">
-                                    <option value="all"> 80.000 USD </option>
-                                </select>
-                                <select class="style-selects-content-right-hero-2" name="city" id="">
-                                    <option value="all"> 250.000 USD </option>
-                                </select>
+                                    <div>
+                                            <span>Desde</span>
+                                            <select class="style-selects-content-right-hero-2" name="city" id="">
+                                                <option value="all"> 80.000 USD </option>
+                                            </select>
+                                    </div>
+                                <div>
+                                    <span>Hasta</span>
+                                        <select class="style-selects-content-right-hero-2" name="city" id="">
+                                            <option value="all"> 250.000 USD </option>
+                                        </select>
+                                </div>
+                                
                                 <button>
                                     <img src="../assets/images/Group 1691.svg" alt="">
                                 </button>
                                 <div>
+                                    <span>Tipo vivienda</span>
                                             <div class=" d-flex content-text-labels-in-inputs-radios ">
                                                 <label for="radio-subsidio" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-not">Apto</label>
                                                 <label for="radio-subsidioo" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-yes">Casa</label>
@@ -195,37 +196,38 @@
                             <div class="row-grid-card-white-hero-2">
                                 <span class="title-selects-content-right-hero-2 mg-top-20">Área</span>
                             </div>
-                                <div class="row-grid-card-white-hero-2">
-                                    <span>Desde</span>
-                                    <span>Hasta</span>
-                                    <span></span>
-                                    <span>Subsidio Vivienda</span>
-                                
-                                </div>
-                            <div class="row-grid-card-white-hero-2 ">
                             
+                            <div class="row-grid-card-white-hero-2 ">
+                            <div>
+                                <span>Desde</span>
                                 <select class="style-selects-content-right-hero-2" name="city" id="">
                                     <option value="all"> 80.000 USD </option>
                                 </select>
+                            </div>
+                             <div>
+                                 <span>Hasta</span>
                                 <select class="style-selects-content-right-hero-2" name="city" id="">
                                     <option value="all"> 250.000 USD </option>
                                 </select>
+                             </div>
+                              
                                 <button>
                                     <img src="../assets/images/Group 1691.svg" alt="">
                                 </button>
                                 <div>
+                                    <span>Subsidio vivienda</span>
                                     <div class=" d-flex content-text-labels-in-inputs-radios ">
                                         <label for="radio-tipo" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-not">No</label>
                                         <label for="radio-tipoo" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-yes">Si</label>
                                     </div>
                                     <div class="container-marron-checkbox-vivienda-page-proyectos">
                                         <label class="content-input">
-                                            <input type="radio" name="tipo" id="radio-tipo" value="No">
+                                            <input type="radio" name="tipo" id="radio-tipo" value="No" checked>
                                             <i></i>
                                         </label>
                                         <div class="span-grid-mid-inter-input-radio-orange"> </div>
                                         <label class="content-input">
-                                            <input type="radio" name="tipo" id="radio-tipoo" value="No" checked>
+                                            <input type="radio" name="tipo" id="radio-tipoo" value="yes" >
                                             <i></i>
                                         </label>
                             
@@ -246,6 +248,110 @@
                    
             </div>
 </section>
+
+
+
+
+<section class="section-hero-2-mobile"> 
+    <h1 class="title-section-hero-2-mobile">ENCUENTRA TU </h1>
+    <h1 class="title-section-hero-2-mobile"><strong>HOGAR SOÑADO</strong></h1>
+    <span class="title-selects-content-right-hero-2 mg-top-20"> Selecciona una ciudad / municipio</span>
+    <select class="style-selects-content-right-hero-2" name="" id="">
+        <option value="">
+            Todas las ciudades
+        </option>
+    </select>
+    <span class="title-selects-content-right-hero-2 mg-top-20"> Selecciona un Sector </span>
+    <select class="style-selects-content-right-hero-2" name="" id="">
+        <option value="">
+            Sector
+        </option>
+    </select>
+    <span class="title-selects-content-right-hero-2 mg-top-20"> Precio </span>
+
+    <div class="row-grid-card-white-hero-2">
+        <div>
+            <span>Desde</span>
+            <select class="style-selects-content-right-hero-2" name="" id="">
+                <option value="">
+                    80.000 USD 
+                </option>
+            </select>
+        </div>
+        <div>
+            <span>Hasta</span>
+            <select class="style-selects-content-right-hero-2" name="" id="">
+                <option value="">
+                    250.0000 USD 
+                </option>
+            </select>
+        </div>
+        <button onclick="imageRotateCurrency()"> <img src="../assets/images/Group 1691.svg" id="imageCurrency" alt=""> </button>
+    </div>
+    <span class="title-selects-content-right-hero-2 mg-top-20"> Área construida </span>
+    <div class="row-grid-card-white-hero-2">
+        <div>
+            <span>Desde</span>
+            <select class="style-selects-content-right-hero-2" name="" id="">
+                <option value="">
+                    40m
+                </option>
+            </select>
+        </div>
+        <div>
+            <span>Hasta</span>
+            <select class="style-selects-content-right-hero-2" name="" id="">
+                <option value="">
+                    120m
+                </option>
+            </select>
+        </div>
+        <button onclick="imageRotateLength()"> <img src="../assets/images/Group 1471.svg" id="imagesLength" alt=""> </button>
+    </div>
+    <div class="row-grid-card-white-hero-2">
+            <div class="mg-top-20">
+                        <span>Subsidio vivienda</span>
+                        <div class=" d-flex content-text-labels-in-inputs-radios ">
+                            <label for="radio-subsidio-mobile" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-not">No</label>
+                            <label for="radio-subsidioo-mobile" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-yes">Si</label>
+                        </div>
+                        <div class="container-marron-checkbox-vivienda-page-proyectos">
+                            <label class="content-input">
+                                <input type="radio" name="subsidio" id="radio-subsidio-mobile" value="No">
+                                <i></i>
+                            </label>
+                            <label class="content-input">
+                                <input type="radio" name="subsidio" id="radio-subsidioo-mobile" value="No" checked>
+                                <i></i>
+                            </label>
+                        
+                        </div>
+            </div>
+                <div class="mg-top-20">
+                    <span class="-pdd-left-small">Tipo <br class="br-salto-de-linea-btn"> vivienda</span>
+                    <div class=" d-flex content-text-labels-in-inputs-radios ">
+                        <label for="radio-tipo-mobile" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-not">No</label>
+                        <label for="radio-tipoo-mobile" class="titulo_mapa_lista_precio dsp-none" id="label-btn-input-yes">Si</label>
+                    </div>
+                    <div class="container-marron-checkbox-vivienda-page-proyectos">
+                        <label class="content-input">
+                            <input type="radio" name="tipo" id="radio-tipo-mobile" value="No">
+                            <i></i>
+                        </label>
+                        <label class="content-input">
+                            <input type="radio" name="tipo" id="radio-tipoo-mobile" value="No" checked>
+                            <i></i>
+                        </label>
+                
+                    </div>
+                </div>
+    </div>
+    <button class="btn-green-hero-2-mobile mg-top-20"> <span>Buscar</span> <img src="../assets/images/search-icon.svg" alt=""> </button>
+</section>
+
+
+
+
 
     <!-- Arranca Hero 3 -->
     <section class="container-fluid --container-fluid-section-project">
@@ -549,11 +655,12 @@
                         <h2 class="text4-2-1-1">PASA</h2>
                         <h2 class="text4-2-1-2">LA VOZ</h2>
                     </section>
+                    
+                </section>
+                <div class="rowContainer">
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                         invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>
-                </section>
-                <div class="rowContainer">
                     <div class="columnContainer">
                         <span class="imgContainer"> <img src="../assets/images/Group 1320@2x.png" width="50px">
                         </span>
@@ -615,7 +722,7 @@
     </div>
 
 
-
+<script src="../js/interactivity.js"></script>
 </body>
 
 </html>
