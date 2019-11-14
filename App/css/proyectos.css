@@ -1455,9 +1455,6 @@ float: left;
 .-w-100-- { width: 100%; }
 .--mg-auto-- { margin: 0 40%; padding: 25px 0 !important; }
 
-
-
-
     }
   
 
@@ -2295,6 +2292,9 @@ button:focus {outline:0 !important;}
 }
 
 @media (max-width: 768px) {
+
+    
+
   .-card-flip > div {
     position: relative;
     transform: none;
@@ -2725,5 +2725,11 @@ button:focus {outline:0 !important;}
 
 .dsp-none { display: none !important;}
 
+
+
+
+.paddinTop20 {
+    padding-top: 20px;
+}
 
 
