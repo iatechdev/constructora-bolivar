@@ -1455,8 +1455,6 @@ float: left;
 .-w-100-- { width: 100%; }
 .--mg-auto-- { margin: 0 40%; padding: 25px 0 !important; }
 
-
-
     }
   
 
@@ -1469,11 +1467,6 @@ float: left;
             z-index: 5;
            
            }
-
-           /* .responsiveColumn{
-            display: flex;
-            flex-direction: column;
-        } */
     }
 
 /*finaliza testimonio*/
