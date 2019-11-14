@@ -1457,7 +1457,6 @@ float: left;
 
 
 
-
     }
   
 
@@ -1470,6 +1469,11 @@ float: left;
             z-index: 5;
            
            }
+
+           /* .responsiveColumn{
+            display: flex;
+            flex-direction: column;
+        } */
     }
 
 /*finaliza testimonio*/
@@ -2295,6 +2299,9 @@ button:focus {outline:0 !important;}
 }
 
 @media (max-width: 768px) {
+
+    
+
   .-card-flip > div {
     position: relative;
     transform: none;
@@ -2725,5 +2732,11 @@ button:focus {outline:0 !important;}
 
 .dsp-none { display: none !important;}
 
+
+
+
+.paddinTop20 {
+    padding-top: 20px;
+}
 
 
