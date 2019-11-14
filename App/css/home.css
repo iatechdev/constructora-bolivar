@@ -212,9 +212,9 @@ span {
 
 .proye {
   margin: 0 !important; }
-
+.pdd-left-30- { padding-left: 30%;}
 .section-hero-1 { width: 100%; min-height: 45vw; margin-bottom: -50px; display: flex; background-image: url(../assets/images/Image\ 90@2x.png) ; background-size: cover;}
-.section-hero-2 { width: 100%; min-height: 47vw; background-color: #F9F5F3; display: flex;}
+.section-hero-2 { width: 100%;  min-height: 45vw; background-color: #F9F5F3; display: flex;}
 
 .container-p-right {width: 100%; height: 100% ;}
 .container-p-left {width: 100%; height: 100% ;    }
@@ -227,19 +227,96 @@ span {
 .icons-card-white-alejandria-mediterraneo { margin: 0 15px;}
 .row-card-white-alejandria-mediterraneo { width: 100%; display: flex; align-items: center; justify-content: space-between;}
 .paragraph-card-white-alejandria-mediterraneo { margin: 30px 0 !important; color: #504741; font-size: 18px; letter-spacing: 1px; font-weight: 400; }
-.hr-card-white-alejandria-medeterraneo { width: 100%; border: 1px solid #D3CDC7; margin: 0 !important; }
-.btn-green-card-white-alejandria-mediterraneo { margin: 25px auto 0; width: 70%; padding: 15px ; border-radius: 24px; background-color: #008C44; color: white; display: flex; align-items: center; justify-content: space-around
-    ;}
-.img-casa-hero-2-hogar { width: 400px ; height: 280px; margin: 20vh auto 0; }
+.hr-card-white-alejandria-medeterraneo { width: 80%;  border: 1px solid #D3CDC7; margin: 0 auto!important; }
+.btn-green-card-white-alejandria-mediterraneo { margin: 25px auto 0; width: 70%; padding: 15px ; border-radius: 24px; background-color: #008C44; color: white; display: flex; align-items: center; justify-content: space-around;}
+.img-casa-hero-2-hogar { width: 400px ; height: 280px; margin: 10vh auto 30px; }
+.row-selects-right-hero-2 {width: 80%; margin: 0 10%; display: flex; justify-content: space-around; margin-top: 20%;}
+.title-selects-content-right-hero-2 {font-size: 18px ; color: #504741; font-weight: 700;}
+.style-selects-content-right-hero-2 {width: 90%; height: 40px; background-color: transparent; color:#B5AEAB ; border: none; border-bottom: solid 1px #E8C133; background: url(../assets/images/icon-arrow-bot-marron.svg) no-repeat right center;}
+.card-white-right-hero-2 {width: 90%; padding: 25px; margin: 25px; background-color: white; border-radius: 15px; box-shadow: 0px 20px 30px #00000026;}
+.row-grid-card-white-hero-2 { width: 100%; display: grid; grid-template-columns: repeat(4, 25%);}
+.container-p-card-white-right-hero-2 { width: 100%;}
+.container-card-rotate-right { width: 80%; margin: auto; background-color: white; border-radius: 15px;display: flex;  margin-top: 59%;}
+.image-card-rotate-right { width: 50%; border-top-right-radius: 15px; border-bottom-right-radius: 15px;}
+.infoo-card-rotate-right { width: 50%; border-top-left-radius: 15px; border-bottom-left-radius: 15px; display: flex; flex-direction: column;}
+.text-cali-card-rotate { padding:25px 35px ; color:#008C44;  font-weight: 700;}
+.images-border-radius { border-top-right-radius: 15px; border-bottom-right-radius: 15px; }
+.row-card-rotate-hero-2 { width: 100%; display: flex; justify-content: space-around;}
+.imagen-inter-card-statue { padding: 20px 0 0 20px;}
+.content-arrows-card-cali-hero-2 { width: 100%; padding: 0 10%; display: flex; justify-content: space-between;}
 
+.content-input input{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.content-input input{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+.content-input{
+	position: relative;
+	margin-bottom: 30px;
+	padding:5px 0 5px 60px; 
+    display: block;
+    width: 46%;
+}
+.span-grid-mid-inter-input-radio-orange { 
+    width: 8%;
+    height: 100%;
+    background-color: #504741;
+    opacity: 0.15;
+}
+.content-text-labels-in-inputs-radios { 
+    justify-content: space-around;
+    height: 1px;
+    position: relative;
+    z-index: 5;
+    margin-top: 15px;
+    margin-bottom: -22px;
+    
+}
+.content-input input + i{
+       background:#F8F6F4;
+       position: absolute; 
+       left: 0;
+       top: 0;
+}
+
+.content-input input[type=radio] + i{
+	width: 100%;
+	height: 30px;
+}
+
+.content-input input[type=radio]:checked + i{
+ background: #FCDA5F;
+}
+.container-marron-checkbox-vivienda-page-proyectos { display: flex; flex-direction: row; width: 80%; border: solid 2px #504741; border-radius: 4px; height: 35px; margin: 15px 0 0 0;}
+.content-text-labels-in-inputs-radios { 
+    width: 80%;
+    justify-content: space-around;
+    height: 1px;
+    position: relative;
+    z-index: 5;
+    margin-top: 15px;
+    margin-bottom: -22px;
+    
+}
+.container-btn-green-after-card-white { width: 80%; margin: 0 auto; display: flex; justify-content: flex-end;}
+.btn-green-after-card-white { min-width: 50%; height: 50px; border-radius: 30px; display: flex; align-items: center; justify-content: space-around; background-color: #008C44;box-shadow: 0px 3px 6px #00000029;
+color: white ; font-size:18px ; font-weight: 500; padding: 5px 15px;}
 @media screen and (max-width:1500px){
 .card-green-conoce-proyectos { margin: 5vw 0 20px; }
-.img-casa-hero-2-hogar { width: 400px ; height: 280px; margin: 5vw auto 0; }
+.img-casa-hero-2-hogar { width: 400px ; height: 280px; margin: 4vw auto 30px; }
 
 
 }
 @media screen and (max-width: 991px ){
     .section-hero-1 { display: none;}
+    .section-hero-2 { display: flex; flex-direction: column;}
+.img-casa-hero-2-hogar { width: 100% ; height: 280px; margin: 4vw auto 30px; }
+
 }
 
 

@@ -995,6 +995,7 @@ opacity: 1;
  background: #FCDA5F;
 }
 .container-marron-checkbox-vivienda-page-proyectos { display: flex; flex-direction: row; width: 100%; border: solid 2px #504741; border-radius: 4px; height: 35px; margin: 15px 0 0 0;}
+
 .container-filter-search {width: 100%; height: 170px;  background-color: #E8E3E1;  display: flex; }
 .content-left-filter-search { width: 30%; height: 96.5%; background-color: #DED6CF;}
 .content-mid-filter-search{  width: 40%;height: 96.5%; padding:25px; background-color: #D8CDC4; border-left: solid 7px #C5BAB1; border-right:solid 7px #C5BAB1 ;}
