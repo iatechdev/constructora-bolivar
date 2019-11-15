@@ -169,9 +169,7 @@ p { margin: 0 !important;}
     text-transform: uppercase;
 
 }
-.--container-fluid-section-two-soñado { 
-    padding: 0 10% !important; background-color:#F9F5F3 ;
-}
+
 .-hogar {
     font-family: 'Roboto',sans-serif;
     font-size: 40px;
@@ -789,10 +787,7 @@ opacity: 1;
     float: right;
     padding: 5px 20px 0 0;
 }
-.img_pequeña_ciudad{
-    float: left;
-    margin: 5px;
-}
+
 .letra{
     font-family:'Roboto', sans-serif;
 }
@@ -835,26 +830,7 @@ opacity: 1;
     cursor: url("../assets/images/iconmonstr-cursor-31-1.png"), pointer;
     
 }
-.img_sendero_pequeña{
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 123px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
-}
-.img_parque_pequeña{    
-    width: 85%;
-    cursor: url("../assets/images/iconmonstr-cursor-31.png"), pointer;
 
-}
-.img_gimnasio_pequeño{
-    width: 85%;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: url("../assets/images/iconmonstr-cursor-31.svg"), pointer;
-
-}
 .titulo_ilarco{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -2566,12 +2542,9 @@ a.customdatademo span:before {
         display: block;
         padding: 5%;
     }
-    .slide__tamaño__responsive{
-        text-align: left;
-        margin-left: 5%;
-    }
+ 
 
-    .slide__controles_tamaño_responsive{
+    .slide__controls_size_responsive{
         margin-left: 40%;
     }
 
@@ -2585,11 +2558,8 @@ a.customdatademo span:before {
     justify-content: center;
 
 }
-.slide__tamaño__responsive{
-    text-align: left;
-    margin-left: 5%; 
-}
-.slide__controles_tamaño_responsive{
+
+.slide__controls_size_responsive{
     margin-left: 40%;
 }
 
@@ -2618,7 +2588,7 @@ a.customdatademo span:before {
     height: 55vh !important;
 }
 
-.testimonio__tamaño{
+.testimony_size{
     height: 25vh !important;
 }
 

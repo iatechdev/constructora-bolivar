@@ -760,7 +760,7 @@ opacity: 1;
     float: right;
     padding: 5px 20px 0 0;
 }
-.img_pequeña_ciudad{
+.img_small-city{
     float: left;
     margin: 5px;
 }
@@ -2388,7 +2388,7 @@ button:focus {outline:0 !important;}
     font-size: 12px;
     padding: 0px;
   }
-  /* .img_pequeña_ciudad{
+  /* .img_small-city{
             display: none;
         } */
 
